@@ -24,6 +24,9 @@ const getAllUrlRecette = async (browser, url) => {
     const page = await browser.newPage()
     await page.goto(url, { waitUntil: 'load', timeout: 0 })
     await page.waitFor('body')
+
+    var urlFinal = []
+
     const recupLiensCat = await page.evaluate(() =>
     {
 
@@ -32,9 +35,12 @@ const getAllUrlRecette = async (browser, url) => {
         return {liensCategorie}
     }
 
+    //[...document.querySelectorAll('.recipe-card a')].map(link => link.href), //a modifier sinon ca marchera pas
+    
+
 )
-    var urlFinal = []
-    return methodeAPoffiner(recupLiensCat, urlFinal)
+   
+    return recupLiensCat
 
 }
 
@@ -44,24 +50,7 @@ function retourUrl(url) {
 }
 
 async function methodeAPoffiner(result, urlFinal) {
-    // console.log("======== result  " + result) 
-
-    var urls = []
-
-
-        for (let x = 1; x < result.length; x++) {
-            
-           // const element1 = result[x-1];
-            
-            urls = result[x-1]
-           //urlFinal.push(urls)
-    
-           //  urls = urls.concat(element1)
-        }
-        
-    //}
-
-    return urls
+   
 }
 
 

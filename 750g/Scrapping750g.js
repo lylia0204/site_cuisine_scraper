@@ -26,10 +26,7 @@ const getDataFromUrl = async (browser, url) => {
 
     return page.evaluate(() => {
 
-        let source = document.querySelector('head > meta:nth-child(46)')
-        if (source != null) {
-            source = source.content
-        }
+        let source = document.URL
 
         let nomRecette = document.querySelector('header span.c-article__title')
         if (nomRecette != null) {
@@ -94,7 +91,7 @@ const getDataFromUrl = async (browser, url) => {
             conseil = conseil.innerText
         }
 
-        let typeRecette = "Apéritifs"       // qu'on stock ici
+        let typeRecette = "Apéritifs" 
 
         let site = "750g.com"
 
@@ -112,15 +109,15 @@ const getDataFromUrl = async (browser, url) => {
 const scrap = async () => {
     const browser = await puppeteer.launch({ headless: false })
     const urlList = await getAllUrl(browser)
-    const results = await Promise.all(
+    const urlData = await Promise.all(
         urlList.map(url => getDataFromUrl(browser, url)),
     )
 
    
     browser.close()
 
-    attributes_for_one_article(results)
-    return results
+    //attributes_for_one_article(urlData)
+    return urlData
 }
 function attributes_for_one_article(responseJs) {
 
@@ -147,7 +144,7 @@ function attributes_for_one_article(responseJs) {
         recette.vegieOUpas = element.vegieOUpas
         recette.imageRecette = element.imageRecette
         recette.note = element.note
-
+// manque portion et dans l'autre note !
         myGenericMongoClient.genericInsertOne('devises',
             recette,
             function (err, res) {

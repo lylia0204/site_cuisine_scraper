@@ -3,88 +3,80 @@ const puppeteer = require('puppeteer')
 const fs = require('fs')
 var myGenericMongoClient = require('../my_generic_mongo_client');
 
-/*
+var urlPrincpale = 'https://www.marmiton.org/recettes/?page=2'
 // 2 - Récupération des URLs de toutes les pages à visiter
-- waitFor("body"): met le script en pause le temps que la page se charge
-- document.querySelectorAll(selector): renvoie tous les noeuds qui vérifient le selecteur
-- [...document.querySelectorAll(selector)]: caste les réponses en tableau
-- Array.map(link => link.href): récupère les attributs href de tous les liens
-*/
-const getAllUrlCategorie = async browser => {
+const getAllUrl = async /*(*/browser/*, urlPage)*/ => {
     const page = await browser.newPage()
-    await page.goto('https://www.marmiton.org/recettes/')
+    await page.goto(urlPrincpale)
+
     await page.waitFor('body')
     const result = await page.evaluate(() =>
-        [...document.querySelectorAll('div.home-search-recipe-container ul li a')].map(link => link.href), //a modifier sinon ca marchera pas
+        [...document.querySelectorAll('.recipe-card a')].map(link => link.href),
     )
     return result
 }
 
-const getAllUrlRecette = async (browser, url) => {
-    const page = await browser.newPage()
-    await page.goto(url, { waitUntil: 'load', timeout: 0 })
-    await page.waitFor('body')
+// const getAllUrlRecette = async (browser, url) => {
+//     const page = await browser.newPage()
+//     await page.goto(url, { waitUntil: 'load', timeout: 0 })
+//     await page.waitFor('body')
 
-    var urlFinal = []
+//     var urlFinal = []
 
-    const recupLiensCat = await page.evaluate(() =>
-    {
+//     const recupLiensCat = await page.evaluate(() =>
+//         // {
 
-        let liensCategorie = Array.from(document.querySelectorAll('.recipe-card a')).map(link => link.href)
+//         //     let liensCategorie = Array.from(document.querySelectorAll('.recipe-card a')).map(link => link.href)
 
-        return {liensCategorie}
-    }
+//         //     return {liensCategorie}
+//         // }
+//         [...document.querySelectorAll('.recipe-card a')].map(link => link.href), //a modifier sinon ca marchera pas
 
-    //[...document.querySelectorAll('.recipe-card a')].map(link => link.href), //a modifier sinon ca marchera pas
-    
-
-)
-   
-    return recupLiensCat
-
-}
-
-
-function retourUrl(url) {
-    return recupLiensCat
-}
-
-async function methodeAPoffiner(result, urlFinal) {
-   
-}
-
-
- 
-
-// const scrap1 = async () => {
-//     const browser = await puppeteer.launch({ headless: false })
-//     const urlCategorieList = await getAllUrlCategorie(browser)
-
-//     const results = await Promise.all(
-//         urlCategorieList.map(url => getAllUrlRecette(browser, url)),
 //     )
-//     browser.close()
-//     return results
+
+//     return recupLiensCat
+
 // }
+
+
+// async function fusion(tableauDeTableaux) {
+//     var allRecettes = []
+
+//     // Pour chaque élément du tableau des recettes
+//     tableauDeTableaux.forEach(listeRecettes => {
+
+//         // Pour chaque sous-tableau (qui contient les urls des recettes)
+//         listeRecettes.forEach(recette => {
+
+//             // TODO : à supprimer les logs plus tard
+
+//             // On récupère l'url et on l'ajoute au tableau final
+//             allRecettes.push(recette)
+//         });
+//     });
+//     //console.log("=== recette : " + allRecettes)
+//     return allRecettes
+// }
+
 
 
 //3 - Récupération des elements d'une recette à partir d'une url 
 
 const getDataFromUrl = async (browser, url) => {
+
     const page = await browser.newPage()
-    await page.goto(url, { waitUntil: 'load', timeout: 0 })
+    await page.goto(url, { waitUntil: 'load', timeout:0 })
     await page.waitFor('body')
     return page.evaluate(() => {
 
-        
-        
-        
+        let source = document.URL
+
         let nomRecette = document.querySelector('h1')
         if (nomRecette != null) {
             nomRecette = nomRecette.innerText
         }
-        
-        let id = nomRecette + "marmiton"
+
+        let id = nomRecette + " marmiton"
 
         let imageRecette = document.querySelector('div.diapo img')
         if (imageRecette != null) {
@@ -126,83 +118,99 @@ const getDataFromUrl = async (browser, url) => {
         if (tpsCuisson != null) {
             tpsCuisson = tpsCuisson.innerText
         }
-        // let tpsRepos = 
-        // if (tpsRepos != null) {
-        //     tpsRepos = tpsRepos.innerText
-        // }
-        let tpstotal = document.querySelector('div.recipe-infos__timmings__total-time ')
-        if (tpstotal != null) {
-            tpstotal = tpstotal.innerText
+
+        let tpsTotal = document.querySelector('div.recipe-infos__timmings__total-time ')
+        if (tpsTotal != null) {
+            tpsTotal = tpsTotal.innerText
         }
-        // let nbrKcal = 
-        // if (nbrKcal != null) {
-        //     nbrKcal = nbrKcal.innerText
-        // }
-        // let video = document.querySelectorAll('div.af-videoplayer video.vjs-tech source ').src
-        // if (video != null) {
-        //     video = video.innerText
-        // }
 
-        let spliteUr = "spliter url a = " // et recuperer que la categorie
+        let site = "marmiton.org"
 
-        let typeRecette = "Dessert"       // qu'on stock ici
-
-        let source = "marmiton.org" / url
+        let typeRecette = "Dessert"
 
         let vegieOUpas = null
 
-
         return {
-            nomRecette, imageRecette, ingredients, materiels,
-            etapesPreparation, conseil, portion, difficulte, budget, tpsCuisson, tpsPreparation, tpstotal, typeRecette
+            nomRecette, id, difficulte, budget, tpsPreparation, tpsCuisson, tpsTotal, portion,
+            imageRecette, ingredients, materiels, etapesPreparation, conseil, typeRecette, source, site, vegieOUpas
         }
     })
 }
 
 
 // 4 - Fonction principale : instanciation d'un navigateur et renvoi des résultats
-/*
-- urlList.map(url => getDataFromUrl(browser, url)):
-appelle la fonction getDataFromUrl sur chaque URL de `urlList` et renvoi un tableau
-
-- await Promise.all(promesse1, promesse2, promesse3):
-bloque de programme tant que toutes les promesses ne sont pas résolues
-*/
 const scrap = async () => {
     const browser = await puppeteer.launch({ headless: false })
 
-    const urlCategorieList = await getAllUrlCategorie(browser) //liens categorie (plat , dessert , entree) 
+    // var urlData = null
+    // for (let i = 1; i < 5; i++) {
 
-   
-    const urlRecetteList = await Promise.all(
-        urlCategorieList.map(url => getAllUrlRecette(browser, url)), // lien de 30 recette * 7 categorie
+
+    const urlList = await getAllUrl(browser/*, urlPrincpale*/)
+
+    urlData = await Promise.all(
+        urlList.map(url => getDataFromUrl(browser, url)), // lien de 30 recette / 5 categorie
     )
-    // const urlData = await Promise.all(
-    //     urlRecetteList.map(url => getDataFromUrl(browser, url)), // lien de 30 recette / 5 categorie
-    // )
 
     browser.close()
-    //attributes_for_one_article(results) //a modifier
-    return urlRecetteList
+    //attributes_for_one_article(urlData)
+
+return urlData
 }
 
 
+// const traiterDataScrapees = async (results) => {
+//     const browser = await puppeteer.launch({ headless: false })
 
+//     var values = fusion(results)
+
+//     // const urlData = await Promise.all(
+//     //     values.map(url => getDataFromUrl(browser, url)), // lien de 30 recette / 5 categorie
+//     // )
+
+
+//     browser.close()
+//     return results
+// }
+
+
+// function lancerScraping(){
+// scrap()
+//     .then(value => {
+//         traiterDataScrapees(value)
+
+//       })
+
+//       .catch(e => console.log(`error: ${e}`))
+
+
+// }
 
 function attributes_for_one_article(responseJs) {
-    // console.log("***** 1 recette found with this request ******")
 
     for (let i = 1; i < responseJs.length; i++) {
         const element = responseJs[i - 1];
 
         var recette = new Object()
 
+        recette.id = element.id
         recette.nomRecette = element.nomRecette
-        //recette.budget = element.budget
-
-
-        // si ca existe input
-        // sinon insert
+        recette.difficulte = element.difficulte
+        recette.budget = element.budget
+        recette.tpsPreparation = element.tpsPreparation
+        recette.tpsCuisson = element.tpsCuisson
+        recette.tempsTotal = element.tempsTotal
+        recette.nomRecette = element.nomRecette
+        recette.etapesPreparation = element.etapesPreparation
+        recette.materiels = element.materiels
+        recette.conseil = element.conseil
+        recette.ingredients = element.ingredients
+        recette.typeRecette = element.typeRecette
+        recette.source = element.source
+        recette.site = element.site
+        recette.vegieOUpas = element.vegieOUpas
+        recette.imageRecette = element.imageRecette
+        // recette.note = element.note
 
 
         myGenericMongoClient.genericInsertOne('devises',
@@ -218,15 +226,15 @@ function attributes_for_one_article(responseJs) {
 
 }
 
-
-
-
-
-
-
 // 5 - Appel la fonction `scrap()`, affichage les résulats et catch les erreurs
+//lancerScraping()
+
 scrap()
     .then(value => {
         console.log(value)
     })
+
     .catch(e => console.log(`error: ${e}`))
+
+
+

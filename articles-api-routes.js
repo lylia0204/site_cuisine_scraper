@@ -92,5 +92,5 @@ apiRouter.route('/recette-api/private/role-admin/recette/:id')
 										     res.send({ deletedDeviseid : idDevise } );
 									    });
 });
-
+ 
 exports.apiRouter = apiRouter;

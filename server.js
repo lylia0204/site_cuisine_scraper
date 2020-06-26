@@ -10,7 +10,7 @@ app.use(jsonParser);
 // par de simples renvois des fichiers statiques du répertoire "./html"
 app.use('/html', express.static(__dirname + "/html"));
 
-app.get('/', function (req, res) {
+app.get('/', function (req, res) { 
     res.redirect('/html/index.html');
 });
 app.use(articleApiRoutes.apiRouter); //delegate REST API routes to apiRouter(s)

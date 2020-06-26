@@ -6,7 +6,7 @@ var assert = require('assert');
 var mongoDbUrl = 'mongodb://127.0.0.1:27017/devises'; //by default
 var dbName = "devises" //by default
 var currentDb = null; //current MongoDB connection
-
+ 
 var setMongoDbUrl = function (dbUrl) {
 	mongoDbUrl = dbUrl;
 }

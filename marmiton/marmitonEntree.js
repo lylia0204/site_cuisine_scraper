@@ -57,9 +57,9 @@ const getDataFromUrl = async (browser, url) => {
 
      
 
-        let valeur = document.querySelector('div.recipe-infos__quantity span.recipe-infos__quantity__value')+" "
+        let valeur = document.querySelector('div.recipe-infos__quantity span.recipe-infos__quantity__value')
         if (valeur != null) {
-            valeur = valeur.innerText
+            valeur = valeur.innerText +" "
         }
         let unite = document.querySelector('div.recipe-infos__quantity span.recipe-infos__item-title')
         if (unite != null) {
@@ -103,7 +103,7 @@ const getDataFromUrl = async (browser, url) => {
         let vegieOUpas = null
 
         return {
-            id, nomRecette, imageRecette, note, portion, difficulte, budget, tpsPreparation, tpsCuisson, tempsTotal, 
+            id, nomRecette, imageRecette, note, portion, difficulte, budget, tpsPreparation, tpsCuisson, tpsTotal, 
             ingredients, materiels, etapesPreparation, conseil, typeRecette , source, site, vegieOUpas
         }
     })
@@ -118,6 +118,9 @@ const scrap = async () => {
         urlList.map(url => getDataFromUrl(browser, url)), 
     )
     browser.close()
+
+    let data = JSON.stringify(urlData, null, 2)
+    fs.writeFileSync('../json/marmitonRecetteEntree.json', data)  
     //attributes_for_one_article(urlData)
 return urlData
 }
@@ -166,7 +169,7 @@ function attributes_for_one_article(responseJs) {
         recette.budget = element.budget
         recette.tpsPreparation = element.tpsPreparation
         recette.tpsCuisson = element.tpsCuisson
-        recette.tempsTotal = element.tempsTotal
+        recette.tpsTotal = element.tpsTotal
         recette.ingredients = element.ingredients
         recette.etapesPreparation = element.etapesPreparation
         recette.materiels = element.materiels

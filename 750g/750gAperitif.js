@@ -53,9 +53,9 @@ const getDataFromUrl = async (browser, url) => {
         if (tpsCuisson != null) {
             tc = parseInt((document.querySelectorAll('ul.c-recipe-summary li')[3]).innerText)
             tp = parseInt((document.querySelectorAll('ul.c-recipe-summary li')[2]).innerText)
-            tempsTotal = tc + tp + " min"
+            tpsTotal = tc + tp + " min"
         }
-        else { tempsTotal = parseInt((document.querySelectorAll('ul.c-recipe-summary li')[2]).innerText) + " min" }
+        else { tpsTotal = parseInt((document.querySelectorAll('ul.c-recipe-summary li')[2]).innerText) + " min" }
 
 
         let note = document.querySelector('div.c-rating span.c-rating__votes')
@@ -93,7 +93,7 @@ const getDataFromUrl = async (browser, url) => {
             conseil = conseil.innerText
         }
 
-        let typeRecette = "Apéritifs" 
+        let typeRecette = "aperitif" 
 
         let site = "750g.com"
 
@@ -101,7 +101,7 @@ const getDataFromUrl = async (browser, url) => {
         let vegieOUpas = null
 
         return {
-            id, nomRecette, imageRecette, note, portion, difficulte, budget, tpsPreparation, tpsCuisson, tempsTotal, 
+            id, nomRecette, imageRecette, note, portion, difficulte, budget, tpsPreparation, tpsCuisson, tpsTotal, 
             ingredients, materiels, etapesPreparation, conseil, typeRecette , source, site, vegieOUpas
         }
     })
@@ -136,7 +136,7 @@ function attributes_for_one_article(responseJs) {
         recette.budget = element.budget
         recette.tpsPreparation = element.tpsPreparation
         recette.tpsCuisson = element.tpsCuisson
-        recette.tempsTotal = element.tempsTotal
+        recette.tpsTotal = element.tpsTotal
         recette.ingredients = element.ingredients
         recette.etapesPreparation = element.etapesPreparation
         recette.materiels = element.materiels

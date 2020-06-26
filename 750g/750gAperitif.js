@@ -5,14 +5,12 @@ var myGenericMongoClient = require('../my_generic_mongo_client');
 
 
 // 2 - Récupération des URLs de toutes les pages à visiter
-
 const getAllUrl = async browser => {
 
     const page = await browser.newPage()
     await page.goto('https://www.750g.com/categorie_aperitifs.htm')
     await page.waitFor('body')
     const result = await page.evaluate(() =>
-        // Array.from(document.querySelectorAll('div.c-row__body a')).map(link => link.href)
         [...document.querySelectorAll('div.c-row__body a')].map(link => link.href),
     )
     return result
@@ -23,7 +21,6 @@ const getDataFromUrl = async (browser, url) => {
     const page = await browser.newPage()
     await page.goto(url, { waitUntil: 'load', timeout: 0 })
     await page.waitFor('body')
-
     return page.evaluate(() => {
 
         let source = document.URL
@@ -66,6 +63,11 @@ const getDataFromUrl = async (browser, url) => {
             note = note.innerText
         }
 
+        let portion = document.querySelector('span.c-ingredient-variator-label')
+        if (portion != null) {
+            portion = portion.innerText
+        }
+
         let imageRecette = document.querySelector('div.c-diapo__image img')
         if (imageRecette != null) {
             imageRecette = imageRecette.src
@@ -99,8 +101,8 @@ const getDataFromUrl = async (browser, url) => {
         let vegieOUpas = null
 
         return {
-            nomRecette, id, difficulte, budget, tpsPreparation, tpsCuisson, tempsTotal, note,
-            imageRecette, ingredients, materiels, etapesPreparation, conseil, typeRecette , source, site, vegieOUpas
+            id, nomRecette, imageRecette, note, portion, difficulte, budget, tpsPreparation, tpsCuisson, tempsTotal, 
+            ingredients, materiels, etapesPreparation, conseil, typeRecette , source, site, vegieOUpas
         }
     })
 }
@@ -112,7 +114,6 @@ const scrap = async () => {
     const urlData = await Promise.all(
         urlList.map(url => getDataFromUrl(browser, url)),
     )
-
    
     browser.close()
 
@@ -128,24 +129,24 @@ function attributes_for_one_article(responseJs) {
 
         recette.id = element.id
         recette.nomRecette = element.nomRecette
+        recette.imageRecette = element.imageRecette
+        recette.note = element.note
+        recette.portion = element.portion
         recette.difficulte = element.difficulte
         recette.budget = element.budget
         recette.tpsPreparation = element.tpsPreparation
         recette.tpsCuisson = element.tpsCuisson
         recette.tempsTotal = element.tempsTotal
-        recette.nomRecette = element.nomRecette
+        recette.ingredients = element.ingredients
         recette.etapesPreparation = element.etapesPreparation
         recette.materiels = element.materiels
         recette.conseil = element.conseil
-        recette.ingredients = element.ingredients
         recette.typeRecette = element.typeRecette
         recette.source = element.source
         recette.site = element.site
         recette.vegieOUpas = element.vegieOUpas
-        recette.imageRecette = element.imageRecette
-        recette.note = element.note
-// manque portion et dans l'autre note !
-        myGenericMongoClient.genericInsertOne('devises',
+
+        myGenericMongoClient.genericInsertOne('recettes',
             recette,
             function (err, res) {
                 res.send(recette);
@@ -153,7 +154,6 @@ function attributes_for_one_article(responseJs) {
         console.log("recette with ID " + recette.nomRecette + " is successfully saved")
     }
 }
-
 
 // 5 - Appel la fonction `scrap()`, affichage les résulats et catch les erreurs
 scrap()

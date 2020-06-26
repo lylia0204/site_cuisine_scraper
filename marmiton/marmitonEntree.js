@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer')
 const fs = require('fs')
 var myGenericMongoClient = require('../my_generic_mongo_client');
 
-var urlPrincpale = 'https://www.marmiton.org/recettes/?page=2'
+var urlPrincpale = 'https://www.marmiton.org/recettes/'
 // 2 - Récupération des URLs de toutes les pages à visiter
 const getAllUrl = async /*(*/browser/*, urlPage)*/ => {
     const page = await browser.newPage()
@@ -15,50 +15,6 @@ const getAllUrl = async /*(*/browser/*, urlPage)*/ => {
     )
     return result
 }
-
-// const getAllUrlRecette = async (browser, url) => {
-//     const page = await browser.newPage()
-//     await page.goto(url, { waitUntil: 'load', timeout: 0 })
-//     await page.waitFor('body')
-
-//     var urlFinal = []
-
-//     const recupLiensCat = await page.evaluate(() =>
-//         // {
-
-//         //     let liensCategorie = Array.from(document.querySelectorAll('.recipe-card a')).map(link => link.href)
-
-//         //     return {liensCategorie}
-//         // }
-//         [...document.querySelectorAll('.recipe-card a')].map(link => link.href), //a modifier sinon ca marchera pas
-
-//     )
-
-//     return recupLiensCat
-
-// }
-
-
-// async function fusion(tableauDeTableaux) {
-//     var allRecettes = []
-
-//     // Pour chaque élément du tableau des recettes
-//     tableauDeTableaux.forEach(listeRecettes => {
-
-//         // Pour chaque sous-tableau (qui contient les urls des recettes)
-//         listeRecettes.forEach(recette => {
-
-//             // TODO : à supprimer les logs plus tard
-
-//             // On récupère l'url et on l'ajoute au tableau final
-//             allRecettes.push(recette)
-//         });
-//     });
-//     //console.log("=== recette : " + allRecettes)
-//     return allRecettes
-// }
-
-
 
 //3 - Récupération des elements d'une recette à partir d'une url 
 
@@ -98,10 +54,26 @@ const getDataFromUrl = async (browser, url) => {
         if (etapesPreparation != null) {
             etapesPreparation = etapesPreparation.map((partner) => partner.innerText.trim())
         }
-        let portion = document.querySelector('div.recipe-infos__quantity span.recipe-infos__quantity__value')
-        if (portion != null) {
-            portion = portion.innerText
+
+     
+
+        let valeur = document.querySelector('div.recipe-infos__quantity span.recipe-infos__quantity__value')+" "
+        if (valeur != null) {
+            valeur = valeur.innerText
         }
+        let unite = document.querySelector('div.recipe-infos__quantity span.recipe-infos__item-title')
+        if (unite != null) {
+            unite = unite.innerText
+        }
+        let portion = valeur.concat(unite)
+       
+
+        let  note = document.querySelector('span.recipe-infos-users__rating')
+        if (note != null) {
+            note = note.innerText
+        }
+    
+
         let difficulte = document.querySelector('div.recipe-infos__level span')
         if (difficulte != null) {
             difficulte = difficulte.innerText
@@ -126,13 +98,13 @@ const getDataFromUrl = async (browser, url) => {
 
         let site = "marmiton.org"
 
-        let typeRecette = "Dessert"
+        let typeRecette = "entree"
 
         let vegieOUpas = null
 
         return {
-            nomRecette, id, difficulte, budget, tpsPreparation, tpsCuisson, tpsTotal, portion,
-            imageRecette, ingredients, materiels, etapesPreparation, conseil, typeRecette, source, site, vegieOUpas
+            id, nomRecette, imageRecette, note, portion, difficulte, budget, tpsPreparation, tpsCuisson, tempsTotal, 
+            ingredients, materiels, etapesPreparation, conseil, typeRecette , source, site, vegieOUpas
         }
     })
 }
@@ -141,20 +113,12 @@ const getDataFromUrl = async (browser, url) => {
 // 4 - Fonction principale : instanciation d'un navigateur et renvoi des résultats
 const scrap = async () => {
     const browser = await puppeteer.launch({ headless: false })
-
-    // var urlData = null
-    // for (let i = 1; i < 5; i++) {
-
-
-    const urlList = await getAllUrl(browser/*, urlPrincpale*/)
-
+    const urlList = await getAllUrl(browser)
     urlData = await Promise.all(
-        urlList.map(url => getDataFromUrl(browser, url)), // lien de 30 recette / 5 categorie
+        urlList.map(url => getDataFromUrl(browser, url)), 
     )
-
     browser.close()
     //attributes_for_one_article(urlData)
-
 return urlData
 }
 
@@ -195,40 +159,33 @@ function attributes_for_one_article(responseJs) {
 
         recette.id = element.id
         recette.nomRecette = element.nomRecette
+        recette.imageRecette = element.imageRecette
+        recette.note = element.note
+        recette.portion = element.portion
         recette.difficulte = element.difficulte
         recette.budget = element.budget
         recette.tpsPreparation = element.tpsPreparation
         recette.tpsCuisson = element.tpsCuisson
         recette.tempsTotal = element.tempsTotal
-        recette.nomRecette = element.nomRecette
+        recette.ingredients = element.ingredients
         recette.etapesPreparation = element.etapesPreparation
         recette.materiels = element.materiels
         recette.conseil = element.conseil
-        recette.ingredients = element.ingredients
         recette.typeRecette = element.typeRecette
         recette.source = element.source
         recette.site = element.site
         recette.vegieOUpas = element.vegieOUpas
-        recette.imageRecette = element.imageRecette
-        // recette.note = element.note
-
-
-        myGenericMongoClient.genericInsertOne('devises',
+        
+        myGenericMongoClient.genericInsertOne('recettes',
             recette,
             function (err, res) {
                 res.send(recette);
             });
         console.log("recette with ID " + recette.nomRecette + " is successfully saved")
-
     }
-
-
-
 }
 
 // 5 - Appel la fonction `scrap()`, affichage les résulats et catch les erreurs
-//lancerScraping()
-
 scrap()
     .then(value => {
         console.log(value)

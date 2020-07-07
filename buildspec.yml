@@ -27,3 +27,4 @@ artifacts:
     - 'recettes-api-routes.js'
     - 'package.json'
     - 'package-lock.json'
+    - 'my_generic_mongo_client.js'

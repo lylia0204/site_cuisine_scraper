@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: target/microservices_recherche-0.0.1-SNAPSHOT.jar
+  - source: /
     destination: /opt/ms-recherche
 hooks:
   BeforeInstall:

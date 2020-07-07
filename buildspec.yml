@@ -28,3 +28,4 @@ artifacts:
     - 'package.json'
     - 'package-lock.json'
     - 'my_generic_mongo_client.js'
+    - 'node_modules/**/*'

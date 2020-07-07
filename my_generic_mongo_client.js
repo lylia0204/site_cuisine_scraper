@@ -3,13 +3,13 @@ var MongoClient = require('mongodb').MongoClient;
 var ObjectID = require('mongodb').ObjectID;
 var assert = require('assert');
 
-var mongoDbUrl = 'mongodb://127.0.0.1:27017/recettes'; //by default
+var mongoDbUrl = 'mongodb+srv://lilya0204:sakura123@cluster-lylaya.3v1kt.mongodb.net/recettes?retryWrites=true&w=majority/recettes'; //by default
 var dbName = "recettes" //by default
 var currentDb = null; //current MongoDB connection
  
 var setMongoDbUrl = function (dbUrl) {
 	mongoDbUrl = dbUrl;
-}
+} 
 
 var setMongoDbName = function (mongoDbName) {
 	dbName = mongoDbName;
@@ -31,6 +31,7 @@ var executeInMongoDbConnection = function (callback_with_db) {
 			//currentDb = db; //with mongodb client v2.x
 			currentDb = db.db(dbName);//with mongodb client >= v3.x
 			callback_with_db(currentDb);
+			// db.close();   
 		});
 	} else {
 		callback_with_db(currentDb);
@@ -43,6 +44,19 @@ var genericUpdateOne = function (collectionName, id, changes, callback_with_err_
 			function (err, results) {
 				if (err != null) {
 					console.log("genericUpdateOne error = " + err);
+				}
+				callback_with_err_and_results(err, results);
+			});
+	});
+};
+
+// mettre a jour plusieurs recettes, et ajout des nouvelles
+var genericUpdateOneScrap = function (collectionName, id, changes, callback_with_err_and_results) {
+	executeInMongoDbConnection(function (db) {
+		db.collection(collectionName).updateOne({ '_id': id }, { $set: changes }, { upsert: true },
+			function (err, results) {
+				if (err != null) {
+					console.log("genericUpdateMany error = " + err);
 				}
 				callback_with_err_and_results(err, results);
 			});
@@ -68,6 +82,7 @@ var genericInsertOne = function (collectionName, newOne) {
 	executeInMongoDbConnection(function (db) {
 		db.collection(collectionName).insertOne(newOne, function (err, result) {
 		})
+		
 	});
 };
 
@@ -120,6 +135,8 @@ var genericFindOne = function (collectionName, query, callback_with_err_and_item
 };
 
 exports.genericUpdateOne = genericUpdateOne;
+exports.genericUpdateOneScrap = genericUpdateOneScrap;
+//exports.genericUpdateMany = genericUpdateMany;
 exports.genericInsertOne = genericInsertOne;
 exports.genericFindList = genericFindList;
 exports.genericFindOne = genericFindOne;

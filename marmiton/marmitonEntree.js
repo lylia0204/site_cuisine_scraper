@@ -5,7 +5,7 @@ var myGenericMongoClient = require('../my_generic_mongo_client');
 
 var urlPrincpale = 'https://www.marmiton.org/recettes/'
 // 2 - Récupération des URLs de toutes les pages à visiter
-const getAllUrl = async /*(*/browser/*, urlPage)*/ => {
+const getAllUrl = async browser => {
     const page = await browser.newPage()
     await page.goto(urlPrincpale)
 
@@ -21,7 +21,7 @@ const getAllUrl = async /*(*/browser/*, urlPage)*/ => {
 const getDataFromUrl = async (browser, url) => {
 
     const page = await browser.newPage()
-    await page.goto(url, { waitUntil: 'load', timeout:0 })
+    await page.goto(url, { waitUntil: 'load', timeout: 0 })
     await page.waitFor('body')
     return page.evaluate(() => {
 
@@ -32,7 +32,8 @@ const getDataFromUrl = async (browser, url) => {
             nomRecette = nomRecette.innerText
         }
 
-        let id = nomRecette + " marmiton"
+        let idAtraiter = nomRecette + " marmiton"
+        let _id = idAtraiter.replace(/ /gi, '-')
 
         let imageRecette = document.querySelector('div.diapo img')
         if (imageRecette != null) {
@@ -55,24 +56,24 @@ const getDataFromUrl = async (browser, url) => {
             etapesPreparation = etapesPreparation.map((partner) => partner.innerText.trim())
         }
 
-     
+
 
         let valeur = document.querySelector('div.recipe-infos__quantity span.recipe-infos__quantity__value')
         if (valeur != null) {
-            valeur = valeur.innerText +" "
+            valeur = valeur.innerText + " "
         }
         let unite = document.querySelector('div.recipe-infos__quantity span.recipe-infos__item-title')
         if (unite != null) {
             unite = unite.innerText
         }
         let portion = valeur.concat(unite)
-       
 
-        let  note = document.querySelector('span.recipe-infos-users__rating')
+
+        let note = document.querySelector('span.recipe-infos-users__rating')
         if (note != null) {
             note = note.innerText
         }
-    
+
 
         let difficulte = document.querySelector('div.recipe-infos__level span')
         if (difficulte != null) {
@@ -100,11 +101,11 @@ const getDataFromUrl = async (browser, url) => {
 
         let typeRecette = "entree"
 
-        let vegieOUpas = null
+        let optionType = null
 
         return {
-            id, nomRecette, imageRecette, note, portion, difficulte, budget, tpsPreparation, tpsCuisson, tpsTotal, 
-            ingredients, materiels, etapesPreparation, conseil, typeRecette , source, site, vegieOUpas
+            _id, nomRecette, imageRecette, note, portion, difficulte, budget, tpsPreparation, tpsCuisson, tpsTotal,
+            ingredients, materiels, etapesPreparation, conseil, typeRecette, source, site, optionType
         }
     })
 }
@@ -115,52 +116,25 @@ const scrap = async () => {
     const browser = await puppeteer.launch({ headless: false })
     const urlList = await getAllUrl(browser)
     urlData = await Promise.all(
-        urlList.map(url => getDataFromUrl(browser, url)), 
+        urlList.map(url => getDataFromUrl(browser, url)),
     )
     browser.close()
 
-    let data = JSON.stringify(urlData, null, 2)
-    fs.writeFileSync('../json/marmitonRecetteEntree.json', data)  
-    //attributes_for_one_article(urlData)
-return urlData
+    // let data = JSON.stringify(urlData, null, 2)
+    // fs.writeFileSync('../json/marmitonRecetteEntree.json', data)
+    attributParRecette(urlData)
+    return urlData
 }
 
 
-// const traiterDataScrapees = async (results) => {
-//     const browser = await puppeteer.launch({ headless: false })
+function attributParRecette(urlData) {
 
-//     var values = fusion(results)
-
-//     // const urlData = await Promise.all(
-//     //     values.map(url => getDataFromUrl(browser, url)), // lien de 30 recette / 5 categorie
-//     // )
-
-
-//     browser.close()
-//     return results
-// }
-
-
-// function lancerScraping(){
-// scrap()
-//     .then(value => {
-//         traiterDataScrapees(value)
-
-//       })
-
-//       .catch(e => console.log(`error: ${e}`))
-
-
-// }
-
-function attributes_for_one_article(responseJs) {
-
-    for (let i = 1; i < responseJs.length; i++) {
-        const element = responseJs[i - 1];
+    for (let i = 1; i < urlData.length; i++) {
+        const element = urlData[i - 1];
 
         var recette = new Object()
 
-        recette.id = element.id
+        recette._id = element._id
         recette.nomRecette = element.nomRecette
         recette.imageRecette = element.imageRecette
         recette.note = element.note
@@ -177,8 +151,8 @@ function attributes_for_one_article(responseJs) {
         recette.typeRecette = element.typeRecette
         recette.source = element.source
         recette.site = element.site
-        recette.vegieOUpas = element.vegieOUpas
-        
+        recette.optionType = element.optionType
+
         myGenericMongoClient.genericInsertOne('recettes',
             recette,
             function (err, res) {

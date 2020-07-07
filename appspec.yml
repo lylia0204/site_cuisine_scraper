@@ -1,0 +1,23 @@
+version: 0.0
+os: linux
+files:
+  - source: target/microservices_recherche-0.0.1-SNAPSHOT.jar
+    destination: /opt/ms-recherche
+hooks:
+  BeforeInstall:
+    - location: scripts/before_install.sh
+      timeout: 300
+      runas: root
+  AfterInstall:
+    - location: scripts/after_install.sh
+      timeout: 300
+      runas: root
+  ApplicationStart:
+    - location: scripts/start_server.sh
+      timeout: 300
+      runas: root
+  ApplicationStop:
+    - location: scripts/stop_server.sh
+      timeout: 300
+      runas: root
+

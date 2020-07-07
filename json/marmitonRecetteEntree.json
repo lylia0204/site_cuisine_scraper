@@ -1,6 +1,6 @@
 [
   {
-    "id": "Tacos mexicains marmiton",
+    "_id": "Tacos-mexicains-marmiton",
     "nomRecette": "Tacos mexicains",
     "imageRecette": "https://assets.afcdn.com/recipe/20190212/87658_w648h414c1cx1663cy2227cxt0cyt0cxb6236cyb4154.jpg",
     "note": "4.6/5",
@@ -45,10 +45,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_tacos-mexicains_34389.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Velouté de Potiron et Carottes marmiton",
+    "_id": "Velouté-de-Potiron-et-Carottes-marmiton",
     "nomRecette": "Velouté de Potiron et Carottes",
     "imageRecette": "https://assets.afcdn.com/recipe/20160325/63237_w648h414c1cx1000cy1500.jpg",
     "note": "4.8/5",
@@ -94,10 +94,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_veloute-de-potiron-et-carottes_19009.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Pain (rapide) marmiton",
+    "_id": "Pain-(rapide)-marmiton",
     "nomRecette": "Pain (rapide)",
     "imageRecette": "https://assets.afcdn.com/recipe/20180628/79995_w648h414c1cx1944cy2592cxt0cyt0cxb3888cyb5184.jpg",
     "note": "4.3/5",
@@ -134,10 +134,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_pain-rapide_14672.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Flan de courgettes marmiton",
+    "_id": "Flan-de-courgettes-marmiton",
     "nomRecette": "Flan de courgettes",
     "imageRecette": "https://assets.afcdn.com/recipe/20190529/93196_w648h414c1cx1920cy2880cxt0cyt0cxb3378cyb4764.jpg",
     "note": "4.8/5",
@@ -173,10 +173,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_flan-de-courgettes_23249.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Gaspacho au Thermomix marmiton",
+    "_id": "Gaspacho-au-Thermomix-marmiton",
     "nomRecette": "Gaspacho au Thermomix",
     "imageRecette": "https://assets.afcdn.com/recipe/20140812/22701_w648h414c1cx1881cy1325.jpg",
     "note": "4.1/5",
@@ -219,10 +219,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_gaspacho-au-thermomix_326649.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Falafel (croquettes de pois chiches) marmiton",
+    "_id": "Falafel-(croquettes-de-pois-chiches)-marmiton",
     "nomRecette": "Falafel (croquettes de pois chiches)",
     "imageRecette": "https://assets.afcdn.com/recipe/20170124/571_w648h414c1cx1500cy1000.jpg",
     "note": "4/5",
@@ -269,10 +269,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_falafel-croquettes-de-pois-chiches_23038.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Salade César marmiton",
+    "_id": "Salade-César-marmiton",
     "nomRecette": "Salade César",
     "imageRecette": "https://assets.afcdn.com/recipe/20190704/94709_w648h414c1cx3000cy2000cxt0cyt0cxb6000cyb4000.jpg",
     "note": "4.6/5",
@@ -315,10 +315,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_salade-cesar_32442.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Quiche au thon marmiton",
+    "_id": "Quiche-au-thon-marmiton",
     "nomRecette": "Quiche au thon",
     "imageRecette": "https://assets.afcdn.com/recipe/20160404/43030_w648h414c1cx1244cy829.jpg",
     "note": "4.7/5",
@@ -360,10 +360,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_quiche-au-thon_18677.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Tarte au thon marmiton",
+    "_id": "Tarte-au-thon-marmiton",
     "nomRecette": "Tarte au thon",
     "imageRecette": "https://assets.afcdn.com/recipe/20170426/6280_w648h414c1cx2000cy3000.jpg",
     "note": "4.5/5",
@@ -398,10 +398,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_tarte-au-thon_11244.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Salade de riz d'été facile marmiton",
+    "_id": "Salade-de-riz-d'été-facile-marmiton",
     "nomRecette": "Salade de riz d'été facile",
     "imageRecette": "https://assets.afcdn.com/recipe/20190704/94661_w648h414c1cx1872cy1872cxt0cyt0cxb3744cyb3744.jpg",
     "note": "4.5/5",
@@ -439,10 +439,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_salade-de-riz-d-ete-facile_30334.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Gaspacho (Andalousie) marmiton",
+    "_id": "Gaspacho-(Andalousie)-marmiton",
     "nomRecette": "Gaspacho (Andalousie)",
     "imageRecette": "https://assets.afcdn.com/recipe/20130823/35057_w648h414c1cx2034cy2034.jpg",
     "note": "4.7/5",
@@ -489,10 +489,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_gaspacho-andalousie_16193.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Les nems de ma grand mère (recette originale) marmiton",
+    "_id": "Les-nems-de-ma-grand-mère-(recette-originale)-marmiton",
     "nomRecette": "Les nems de ma grand mère (recette originale)",
     "imageRecette": "https://assets.afcdn.com/recipe/20181017/82873_w648h414c1cx1944cy2592cxt0cyt0cxb3888cyb5184.jpg",
     "note": "4.7/5",
@@ -534,10 +534,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_les-nems-de-ma-grand-mere-recette-originale_38800.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Bruschetta (Italie) marmiton",
+    "_id": "Bruschetta-(Italie)-marmiton",
     "nomRecette": "Bruschetta (Italie)",
     "imageRecette": "https://assets.afcdn.com/recipe/20170112/42222_w648h414c1cx1500cy1000.jpg",
     "note": "4.4/5",
@@ -571,10 +571,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_bruschetta-italie_11272.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Velouté de butternut à la cannelle marmiton",
+    "_id": "Velouté-de-butternut-à-la-cannelle-marmiton",
     "nomRecette": "Velouté de butternut à la cannelle",
     "imageRecette": "https://assets.afcdn.com/recipe/20131121/56974_w648h414c1cx1353cy1772.jpg",
     "note": "4.9/5",
@@ -613,10 +613,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_veloute-de-butternut-a-la-canelle_220583.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Caviar d'aubergines marmiton",
+    "_id": "Caviar-d'aubergines-marmiton",
     "nomRecette": "Caviar d'aubergines",
     "imageRecette": "https://assets.afcdn.com/recipe/20181123/84194_w648h414c1cx2880cy1920cxt0cyt0cxb5758cyb3833.jpg",
     "note": "3.8/5",
@@ -656,10 +656,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_caviar-d-aubergines_17847.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Tortilla facile (Espagne) marmiton",
+    "_id": "Tortilla-facile-(Espagne)-marmiton",
     "nomRecette": "Tortilla facile (Espagne)",
     "imageRecette": "https://assets.afcdn.com/recipe/20200512/110960_w648h414c1cx2880cy1920cxt0cyt0cxb5760cyb3840.jpg",
     "note": "4.4/5",
@@ -701,10 +701,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_tortilla-facile-espagne_16245.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Blinis faciles maison marmiton",
+    "_id": "Blinis-faciles-maison-marmiton",
     "nomRecette": "Blinis faciles maison",
     "imageRecette": "https://assets.afcdn.com/recipe/20160527/26170_w648h414c1cx3000cy2000.jpg",
     "note": "4.8/5",
@@ -736,10 +736,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_blinis-faciles-maison_22261.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Cake aux olives marmiton",
+    "_id": "Cake-aux-olives-marmiton",
     "nomRecette": "Cake aux olives",
     "imageRecette": "https://assets.afcdn.com/recipe/20180705/80209_w648h414c1cx1707cy2276cxt0cyt0cxb3414cyb4552.jpg",
     "note": "4.6/5",
@@ -784,10 +784,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_cake-aux-olives_17638.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Samoussa rapide au boeuf marmiton",
+    "_id": "Samoussa-rapide-au-boeuf-marmiton",
     "nomRecette": "Samoussa rapide au boeuf",
     "imageRecette": "https://assets.afcdn.com/recipe/20181017/82772_w648h414c1cx1795cy2394cxt0cyt0cxb3591cyb4788.jpg",
     "note": "4.7/5",
@@ -829,10 +829,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_samoussa-au-boeuf-rapides_171841.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Soupe à l'oignon marmiton",
+    "_id": "Soupe-à-l'oignon-marmiton",
     "nomRecette": "Soupe à l'oignon",
     "imageRecette": "https://assets.afcdn.com/recipe/20160401/30155_w648h414c1cx1632cy2464.jpg",
     "note": "4.1/5",
@@ -879,10 +879,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_soupe-a-l-oignon_10891.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Cake au thon marmiton",
+    "_id": "Cake-au-thon-marmiton",
     "nomRecette": "Cake au thon",
     "imageRecette": "https://assets.afcdn.com/recipe/20200218/107819_w648h414c1cx960cy540cxt0cyt0cxb1920cyb1080.jpg",
     "note": "4.5/5",
@@ -918,10 +918,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_cake-au-thon_13508.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Oeufs mimosa marmiton",
+    "_id": "Oeufs-mimosa-marmiton",
     "nomRecette": "Oeufs mimosa",
     "imageRecette": "https://assets.afcdn.com/recipe/20130924/17648_w648h414c1cx1328cy1928.jpg",
     "note": "4.6/5",
@@ -963,10 +963,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_oeufs-mimosa_28602.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Quiche aux poireaux marmiton",
+    "_id": "Quiche-aux-poireaux-marmiton",
     "nomRecette": "Quiche aux poireaux",
     "imageRecette": "https://assets.afcdn.com/recipe/20181107/83669_w648h414c1cx2464cy1640cxt0cyt0cxb4928cyb3280.jpg",
     "note": "4.5/5",
@@ -1008,10 +1008,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_quiche-aux-poireaux_24393.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Soupe aux 7 légumes marmiton",
+    "_id": "Soupe-aux-7-légumes-marmiton",
     "nomRecette": "Soupe aux 7 légumes",
     "imageRecette": "https://assets.afcdn.com/recipe/20130204/35645_w648h414c1cx1250cy1875.jpg",
     "note": "4.7/5",
@@ -1060,10 +1060,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_soupe-aux-7-legumes_65063.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Rouleaux de printemps marmiton",
+    "_id": "Rouleaux-de-printemps-marmiton",
     "nomRecette": "Rouleaux de printemps",
     "imageRecette": "https://assets.afcdn.com/recipe/20130823/43324_w648h414c1cx2136cy1424.jpg",
     "note": "4.4/5",
@@ -1095,10 +1095,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_rouleaux-de-printemps_17583.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Saumon en papillote marmiton",
+    "_id": "Saumon-en-papillote-marmiton",
     "nomRecette": "Saumon en papillote",
     "imageRecette": "https://assets.afcdn.com/recipe/20161213/13290_w648h414c1cx2725cy2045.jpg",
     "note": "4.4/5",
@@ -1138,10 +1138,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_saumon-en-papillote_80152.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Pissaladière marmiton",
+    "_id": "Pissaladière-marmiton",
     "nomRecette": "Pissaladière",
     "imageRecette": "https://assets.afcdn.com/recipe/20160517/22244_w648h414c1cx2000cy3000.jpg",
     "note": "4.6/5",
@@ -1187,10 +1187,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_pissaladiere_20407.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Tarte à l'ail des ours marmiton",
+    "_id": "Tarte-à-l'ail-des-ours-marmiton",
     "nomRecette": "Tarte à l'ail des ours",
     "imageRecette": "https://assets.afcdn.com/recipe/20181108/83693_w648h414c1cx1581cy2640cxt0cyt0cxb2537cyb3796.jpg",
     "note": "4.5/5",
@@ -1239,10 +1239,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_tarte-a-l-ail-des-ours_47357.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Salade de concombre au chèvre et olives marmiton",
+    "_id": "Salade-de-concombre-au-chèvre-et-olives-marmiton",
     "nomRecette": "Salade de concombre au chèvre et olives",
     "imageRecette": "https://assets.afcdn.com/recipe/20161010/64090_w648h414c1cx3680cy2456.jpg",
     "note": "4.2/5",
@@ -1276,10 +1276,10 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_salade-de-concombre-au-chevre-et-olives_22393.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   },
   {
-    "id": "Tzatziki (Grèce) marmiton",
+    "_id": "Tzatziki-(Grèce)-marmiton",
     "nomRecette": "Tzatziki (Grèce)",
     "imageRecette": "https://assets.afcdn.com/recipe/20161116/643_w648h414c1cx2808cy1872.jpg",
     "note": "4.6/5",
@@ -1313,6 +1313,6 @@
     "typeRecette": "entree",
     "source": "https://www.marmiton.org/recettes/recette_tzatziki-grece_11797.aspx",
     "site": "marmiton.org",
-    "vegieOUpas": null
+    "optionType": null
   }
 ]

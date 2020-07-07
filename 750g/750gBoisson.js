@@ -30,7 +30,7 @@ const getDataFromUrl = async (browser, url) => {
             nomRecette = nomRecette.innerText
         }
 
-        let id = nomRecette + " 750g"
+        let _id = nomRecette + " 750g"
 
         let difficulte = document.querySelectorAll('ul.c-recipe-summary li')[0]
         if (difficulte != null) {
@@ -98,11 +98,11 @@ const getDataFromUrl = async (browser, url) => {
         let site = "750g.com"
 
 
-        let vegieOUpas = null
+        let optionType = null
 
         return {
-            id, nomRecette, imageRecette, note, portion, difficulte, budget, tpsPreparation, tpsCuisson, tpsTotal, 
-            ingredients, materiels, etapesPreparation, conseil, typeRecette , source, site, vegieOUpas
+            _id, nomRecette, imageRecette, note, portion, difficulte, budget, tpsPreparation, tpsCuisson, tpsTotal, 
+            ingredients, materiels, etapesPreparation, conseil, typeRecette , source, site, optionType
         }
     })
 }
@@ -127,7 +127,7 @@ function attributes_for_one_article(responseJs) {
 
         var recette = new Object()
 
-        recette.id = element.id
+        recette._id = element._id
         recette.nomRecette = element.nomRecette
         recette.imageRecette = element.imageRecette
         recette.note = element.note
@@ -144,7 +144,7 @@ function attributes_for_one_article(responseJs) {
         recette.typeRecette = element.typeRecette
         recette.source = element.source
         recette.site = element.site
-        recette.vegieOUpas = element.vegieOUpas
+        recette.optionType = element.optionType
 
         myGenericMongoClient.genericInsertOne('recettes',
             recette,

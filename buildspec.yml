@@ -14,7 +14,6 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling the Node.js code
-      - tar -cvf my_nodejs.tar server.js recettes-api-routes.js package.json package-lock.json my_generic_mongo_client.js
   post_build:
     commands:
       - echo Build completed on `date`
@@ -24,9 +23,8 @@ phases:
 # ExpressJS apps will need other artifact directories included (bin/*, public/*, routes/*, views/* etc).
 artifacts:
   files:
-    - 'my_nodejs.tar'
-    - 'appspec.yml' 
-    - 'scripts/before_install.sh' 
-    - 'scripts/after_install.sh' 
-    - 'scripts/start_server.sh' 
-    - 'scripts/stop_server.sh'
+    - 'server.js'
+    - 'recettes-api-routes.js'
+    - 'package.json'
+    - 'package-lock.json'
+    - 'my_generic_mongo_client.js'

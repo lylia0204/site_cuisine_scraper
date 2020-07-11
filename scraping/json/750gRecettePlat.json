@@ -1,0 +1,283 @@
+[
+  {
+    "_id": "Clafoutis-courgettes-fromage-de-chèvre-et-menthe-750g",
+    "nomRecette": "Clafoutis courgettes fromage de chèvre et menthe",
+    "imageRecette": "https://static.750g.com/images/640-420/28b3cb79fa96339b2e22543f8193a637/adobestock-113582858.jpeg",
+    "note": "5/5",
+    "portion": "5 personnes",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "10min",
+    "tpsCuisson": "25min",
+    "tpsTotal": "35min",
+    "ingredients": [
+      "4 oeufs",
+      "70 g de farine",
+      "46,5 cl de crème fraîche liquide",
+      "600 g de courgettes",
+      "3,5 cl d'huile d'olive + 1 c à c pour le moule",
+      "190 g de fromage de chèvre frais",
+      "33 feuilles de menthe",
+      "Sel ou sel fin",
+      "Poivre",
+      "Macis ou fleur de muscade"
+    ],
+    "materiels": [
+      "Fouet",
+      "Four traditionnel",
+      "Passoire",
+      "Robot Vorwerk Thermomix",
+      "Plat à gratin",
+      "Bol(s)"
+    ],
+    "etapesPreparation": [
+      "Dans le bol du thermomix mettre 600 g de courgettes coupées en morceaux programmer 5 sec V4. Ajouter 35 g d'huile d'olive et la menthe ciselée ajouter une 1/2 cuillère à café de sel et 2 pincées de poivre cuire 10 mn 100°C sens inverse vit mijotage. Les égoutter dans une passoire et laisser refroidir.",
+      "Dans le bol mettre 4 oeufs, 70 g de farine, 465 g de crème fraîche liquide, 190 g de fromage frais de chèvre, 2 pincées de macis de muscade, 2 pincées de sel et de poivre (à ajuster selon votre goût). Mixer 20 sec V4.",
+      "Préchauffer le four à 180°C chaleur tournante. Huiler le plat à gratin y installer les courgettes égouttées puis verser la préparation sur les légumes. Parsemer 3 pincées de menthe ciselée sur le plat. Cuire 25 mn environ selon votre four. Sortir du four et laisser refroidir avant de mettre le clafoutis au réfrigérateur. A déguster avec une salade verte."
+    ],
+    "conseil": "La menthe peut être remplacée par du basilic ou de la ciboulette.",
+    "typeRecette": "plat",
+    "source": "https://www.750g.com/clafoutis-courgettes-fromage-de-chevre-et-menthe-r206725.htm",
+    "site": "750g.com",
+    "optionType": null
+  },
+  {
+    "_id": "Gratin-d'aubergine-et-chèvre-frais-à-la-chapelure-aillée-750g",
+    "nomRecette": "Gratin d'aubergine et chèvre frais à la chapelure aillée",
+    "imageRecette": "https://static.750g.com/images/640-420/c566a4d1f0db4e4c375a10f4cb193f0f/ob-fdd974-img-20191110-142400b-chevre-aubergine.jpg",
+    "note": "4/5",
+    "portion": "6 personnes",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "25min",
+    "tpsCuisson": "20min",
+    "tpsTotal": "45min",
+    "ingredients": [
+      "3 aubergines",
+      "200 g de chèvre frais",
+      "4 gousses d'ail",
+      "300 g de pain rassis ou chapelure",
+      "1 c. à c. de thym",
+      "Sel ou sel fin",
+      "Poivre",
+      "Huile d'olive"
+    ],
+    "materiels": [
+      "Couteau d'office",
+      "Four traditionnel",
+      "Plancha",
+      "Poêle",
+      "Robot mixeur",
+      "Spatule ou cuillère en bois",
+      "Bol(s)",
+      "Papier absorbant",
+      "Plat à four de 30x45cm"
+    ],
+    "etapesPreparation": [
+      "Laver les aubergines, couper les pédoncules et les détailler en tranches. Mettre à chauffer un peu d’huile d’olive dans une poêle et faire cuire à feu doux les tranches d’aubergines. Éponger si besoin sur du papier absorbant. Mixer finement le pain rassis. Réserver. Battre le fromage de chèvre frais, saler, poivrer. Réserver. Chauffer une poêle avec l'huile d'olive, y faire revenir l’ail émincé à feu très doux pendant 5 min environ.",
+      "Verser le pain mixé ou la chapelure, mélanger et faire dorer légèrement à feu doux. Dans un plat allant au four, étaler une bonne couche d’aubergines, saupoudrer d'un peu de thym et recouvrir de fromage de chèvre frais battu. Parsemer sur le fromage de chèvre une partie de la chapelure aillée. Recommencer l’opération en terminant avec sur le dessus des aubergines saupoudrées de chapelure aillée. Enfourner four préchauffé à 200°C (th : 6-7) pendant 20 min environ."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "plat",
+    "source": "https://www.750g.com/gratin-d-aubergine-et-chevre-frais-a-la-chapelure-aillee-r206709.htm",
+    "site": "750g.com",
+    "optionType": null
+  },
+  {
+    "_id": "Filet-mignon-farci-au-pesto-à-l'ail-des-ours-750g",
+    "nomRecette": "Filet mignon farci au pesto à l'ail des ours",
+    "imageRecette": "https://static.750g.com/images/640-420/1db932e374d006231fe63aea7f17c15b/img-20200621-130849filet-mignon.jpg",
+    "note": "4/5",
+    "portion": "5 personnes",
+    "difficulte": "Très facile",
+    "budget": "Budget moyen",
+    "tpsPreparation": "25min",
+    "tpsCuisson": "25min",
+    "tpsTotal": "50min",
+    "ingredients": [
+      "1 filet mignon",
+      "1 pot de pesto à l'ail des ours",
+      "4 échalotes",
+      "1 c. à s. de fond de veau",
+      "5 cl de vin blanc sec",
+      "5 cl d'eau",
+      "Patate douce",
+      "Céleri rave"
+    ],
+    "materiels": [
+      "Cocotte en fonte",
+      "Couteau d'office",
+      "Ficelle alimentaire"
+    ],
+    "etapesPreparation": [
+      "Couper le filet mignon dans le sens de la longueur, saler légèrement et poivrer. Farcir avec le pesto ail des ours. Refermer et le ficeler ou le coudre comme je l’ai fait avec du fil alimentaire. Dans une cocotte mettre à chauffer un peu d’huile d’olive et faire dorer légèrement le filet mignon.",
+      "Ajouter les échalotes émincées, puis la patate douce et le céleri rave coupés façon potatoes et faire rissoler 5 min. Mélanger le fond de veau avec le vin blanc et l’eau et verser dans la cocotte. Couvrir et cuire encore 20 min à feu doux. Si besoin rajouter un peu d’eau. Avant de servir retirer la ficelle et couper des tranches. Accompagner le filet mignon de potatoes de patates douces et de céleri rave."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "plat",
+    "source": "https://www.750g.com/filet-mignon-farci-au-pesto-a-l-ail-des-ours-r206708.htm",
+    "site": "750g.com",
+    "optionType": null
+  },
+  {
+    "_id": "Cabillaud-confit-à-l’ail-noir,-sabayon-vinaigre,-pulpe-de-céleri-750g",
+    "nomRecette": "Cabillaud confit à l’ail noir, sabayon vinaigre, pulpe de céleri",
+    "imageRecette": null,
+    "note": "4/5",
+    "portion": "2 personnes",
+    "difficulte": "Moyen",
+    "budget": "Budget moyen",
+    "tpsPreparation": "40min",
+    "tpsCuisson": "Sans cuisson",
+    "tpsTotal": "40min",
+    "ingredients": [
+      "2 pavés de cabillauds",
+      "Ail noir",
+      "4 jaunes d'oeuf",
+      "Vinaigre Coréen",
+      "200 g de beurre",
+      "1 céleri rave",
+      "1 l de lait",
+      "1 l de crème fraîche liquide"
+    ],
+    "materiels": [
+      "Casserole",
+      "Fouet",
+      "Presse-purée"
+    ],
+    "etapesPreparation": [
+      "Cuire le céleri au lait avec un peu de sel. Ecraser au presse purée pour obtenir une purée.",
+      "Détailler le cabillaud et le badigeonner d’ail noir",
+      "Cuire le cabillaud à 55°C pendant 40 mn",
+      "",
+      "Montez le sabayon comme une béarnaise avec vinaigre et beurre fondu."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "plat",
+    "source": "https://www.750g.com/cabillaud-confit-a-l-ail-noir-sabayon-vinaigre-pulpe-de-celeri-r206692.htm",
+    "site": "750g.com",
+    "optionType": null
+  },
+  {
+    "_id": "Tataki-de-bœuf-frotté-au-Gochujang-salade-croquante-de-kimchi-750g",
+    "nomRecette": "Tataki de bœuf frotté au Gochujang salade croquante de kimchi",
+    "imageRecette": null,
+    "note": "4/5",
+    "portion": "6 personnes",
+    "difficulte": "Moyen",
+    "budget": "Assez cher",
+    "tpsPreparation": "40min",
+    "tpsCuisson": "Sans cuisson",
+    "tpsTotal": "40min",
+    "ingredients": [
+      "1 kg de filets de boeuf (coeur)",
+      "5 cl d'huile d'olive",
+      "1 pot de pâte de piment coréenne (Gochujang)",
+      "1 radis noir",
+      "1 betterave chioggia",
+      "1 botte de radis",
+      "1 botte de radis de couleur",
+      "1 betterave jaune",
+      "1 botte de coriandre",
+      "2 sucrines",
+      "Graine de sésame grillé",
+      "500 g de kim chi",
+      "5 cl de vinaigre de riz ou vinaigre japonais"
+    ],
+    "materiels": [
+      "Mandoline",
+      "Poêle",
+      "Râpe microplane"
+    ],
+    "etapesPreparation": [
+      "Saler le filet",
+      "Sauter le filet et le laisser bleu et le laisser refroidir",
+      "Mariner Gochujang",
+      "Préparer la salade croquante en coupant fin à la mandoline",
+      "Assaisonner avec vinaigre japonais et kimchi.",
+      "Faire une petite salade croquante",
+      "",
+      "Disposer classe et décorer avec fleur et sésame grillée"
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "plat",
+    "source": "https://www.750g.com/tataki-de-boeuf-frotte-au-gochujang-salade-croquante-de-kimchi-r206691.htm",
+    "site": "750g.com",
+    "optionType": null
+  },
+  {
+    "_id": "Spaghetti-minute-sauce-tomates,-basilic-et-Parmesan-750g",
+    "nomRecette": "Spaghetti minute sauce tomates, basilic et Parmesan",
+    "imageRecette": "https://static.750g.com/images/640-420/a114df7cb9e00263e09c3d5ac65fffdc/adobestock-333176123.jpeg",
+    "note": "4/5",
+    "portion": "3 personnes",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "5min",
+    "tpsCuisson": "12min",
+    "tpsTotal": "17min",
+    "ingredients": [
+      "400 g de spaghetti",
+      "2 boites de polpa (tomates fines concassées)",
+      "80 g de parmesan râpé",
+      "0,5 bouquet de basilic",
+      "Huile d'olive",
+      "Gros sel",
+      "Poivre du moulin"
+    ],
+    "materiels": [
+      "Marmite",
+      "Poêle"
+    ],
+    "etapesPreparation": [
+      "Versez les 2 boites de pulpe de tomates dans une grande poêle avec la moitié des feuilles de basilic et un filet d’huile d’olive et faites revenir pendant une dizaine de minutes, afin que la sauce épaississe.",
+      "Pendant ce temps, plongez les spaghetti dans un grand volume d’eau bouillante salée et faites-les cuire selon les indications du paquet.",
+      "Égouttez les spaghetti, ajoutez-les dans la poêle et mélangez hors du feu.",
+      "Servez avec le parmesan râpé, un filet d’huile d’olive, le reste des feuilles de basilic et un bon tour de moulin à poivre.",
+      ""
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "plat",
+    "source": "https://www.750g.com/spaghetti-minute-sauce-tomates-basilic-et-parmesan-r206685.htm",
+    "site": "750g.com",
+    "optionType": null
+  },
+  {
+    "_id": "Linguine-à-la-poudre-de-Poutargue-750g",
+    "nomRecette": "Linguine à la poudre de Poutargue",
+    "imageRecette": "https://static.750g.com/images/640-420/e6a3dda7c3e92a6414613bf5938933a1/linguine-a-la-poudre-de-poutargue.png",
+    "note": "4/5",
+    "portion": "2 personnes",
+    "difficulte": "Facile",
+    "budget": "Budget moyen",
+    "tpsPreparation": "20min",
+    "tpsCuisson": "10min",
+    "tpsTotal": "30min",
+    "ingredients": [
+      "0,5 gousse d'ail",
+      "1 courgette",
+      "2 c. à c. de poutargues (poudre)",
+      "100 g de linguine",
+      "Parmesan (optionnel)"
+    ],
+    "materiels": [
+      "Casserole",
+      "Couteau d'office",
+      "Louche",
+      "Passoire",
+      "Planche à découper",
+      "Poêle",
+      "Râpe",
+      "Spatule ou cuillère en bois"
+    ],
+    "etapesPreparation": [
+      "Couper la gousse d’ail en fine lamelles, les faire frire dans une grande poêle et les réserver. Râper grossièrement les courgettes et les faire revenir à feu vif dans la même poêle. Les saler légèrement. Pendant que les courgettes cuisent faire cuire les pâtes.",
+      "Quand les pâtes sont cuites al dente bien sûr, les incorporer aux courgettes avec l’ail frit, feu allumé. Ajouter une petite louche d’eau de cuisson, mélanger, puis râper le parmesan selon votre gout, et ajouter une cuillère de poudre de poutargue par personne, et mélanger encore un peu, toujours feu allumé. Servir, et saupoudrer chaque assiette d’une cuillère à café de poudre de poutargue."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "plat",
+    "source": "https://www.750g.com/linguine-a-la-poudre-de-poutargue-r206684.htm",
+    "site": "750g.com",
+    "optionType": null
+  }
+]

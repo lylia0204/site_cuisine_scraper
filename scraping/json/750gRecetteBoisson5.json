@@ -1,0 +1,332 @@
+[
+  {
+    "_id": "Chocolat-chaud-au-lait-d'amande-750g",
+    "nomRecette": "Chocolat chaud au lait d'amande",
+    "imageRecette": "https://static.750g.com/images/640-420/6d960426e5d335ed89018c26815f25b9/chocolat-sans-lactose.jpg",
+    "note": "4/5",
+    "portion": "4 personnes",
+    "difficulte": "Facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "5min",
+    "tpsCuisson": "5min",
+    "tpsTotal": "10min",
+    "ingredients": [
+      "80 cl de lait d'amande",
+      "1 c. à s. de cacao amer ou poudre de cacao non sucrée",
+      "170 g de chocolat noir 70%"
+    ],
+    "materiels": [
+      "Casserole",
+      "Planche à découper",
+      "Spatule ou cuillère en bois",
+      "Bol(s)"
+    ],
+    "etapesPreparation": [
+      "Hachez le chocolat sur une planche, versez dans un bol. Versez le lait et le cacao dans une casserole et faites chauffer jusqu’à frémissement. Versez ce mélange sur le chocolat haché, couvrez pendant 30 secondes puis lissez à la spatule.",
+      "Remettez dans la casserole et faites chauffer, tout en fouettant le mélange. C’est prêt quand le chocolat chaud devient plus épais.",
+      ""
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "boisson",
+    "source": "https://www.750g.com/chocolat-chaud-au-lait-d-amande-r204758.htm",
+    "site": "750g.com",
+    "optionType": null
+  },
+  {
+    "_id": "Chocolat-chaud-version-originale-à-l’eau-et-aux-épices-750g",
+    "nomRecette": "Chocolat chaud version originale à l’eau et aux épices",
+    "imageRecette": "https://static.750g.com/images/640-420/2bb9e235ff5707add21f72384199e02e/chocolat-aux-epices.jpg",
+    "note": "4/5",
+    "portion": "Non précisée",
+    "difficulte": "Facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "5min",
+    "tpsCuisson": "5min",
+    "tpsTotal": "10min",
+    "ingredients": [
+      "1 L d'eau filtrée",
+      "250g de chocolat à 66% de cacao",
+      "50g de cacao non sucré",
+      "1 pincée de fleur de sel",
+      "Mélange d'épices (cannelle et vanille)",
+      "50g de vergeoise blonde ou de sucre de canne blond"
+    ],
+    "materiels": [
+      "Casserole",
+      "Fouet",
+      "Planche à découper"
+    ],
+    "etapesPreparation": [
+      "Concassez le chocolat sur une planche. Versez l'eau et les épices dans une casserole et faites frémir. Ajoutez le chocolat concassé, le cacao, le sucre et mélangez au fouet sur feu moyen, jusqu'à ce que le mélange épaississe légèrement.",
+      "Laissez reposer hors du feu pendant 3 minutes, servez chaud ou froid."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "boisson",
+    "source": "https://www.750g.com/chocolat-chaud-a-l-eau-r204757.htm",
+    "site": "750g.com",
+    "optionType": null
+  },
+  {
+    "_id": "Chocolat-chaud,-la-version-classique-750g",
+    "nomRecette": "Chocolat chaud, la version classique",
+    "imageRecette": "https://static.750g.com/images/640-420/ad4922bbf5689277a13fcc8ad9ab712a/chocolat-americain.jpg",
+    "note": "4/5",
+    "portion": "4 personnes",
+    "difficulte": "Facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "5min",
+    "tpsCuisson": "5min",
+    "tpsTotal": "10min",
+    "ingredients": [
+      "80 cl de lait entier",
+      "1 c. à s. de cacao amer ou poudre de cacao non sucrée",
+      "170 g de chocolat noir 70%"
+    ],
+    "materiels": [
+      "Casserole",
+      "Fouet",
+      "Planche à découper",
+      "Spatule ou cuillère en bois",
+      "Bol(s)"
+    ],
+    "etapesPreparation": [
+      "Hachez le chocolat sur une planche, versez dans un bol. Versez le lait et le cacao dans une casserole et faites chauffer jusqu’à frémissement. Versez ce mélange sur le chocolat haché, couvrez pendant 30 secondes puis lissez à la spatule.",
+      "Remettez dans la casserole et faites chauffer, tout en fouettant le mélange. C’est prêt quand le chocolat chaud devient plus épais.",
+      ""
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "boisson",
+    "source": "https://www.750g.com/chocolat-chaud-la-version-classique-r204756.htm",
+    "site": "750g.com",
+    "optionType": null
+  },
+  {
+    "_id": "Milk-shake-au-café-750g",
+    "nomRecette": "Milk shake au café",
+    "imageRecette": "https://static.750g.com/images/640-420/ba3f30ff6ec0d4bc99c901940398215a/milk-shake-4-.jpg",
+    "note": "4/5",
+    "portion": "Non précisée",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "5min",
+    "tpsCuisson": "Sans cuisson",
+    "tpsTotal": "5min",
+    "ingredients": [
+      "2 c à s de café fort",
+      "25 cl de lait entier froid",
+      "6 boules de glace vanille",
+      "1 c à s de chocolat à tartiner",
+      "Perles de chocolat",
+      "Sarment du Médoc"
+    ],
+    "materiels": [],
+    "etapesPreparation": [
+      "Dans un bol haut, verser le café fort, le lait, le chocolat et la glace vanille. Mixer jusqu'à consistance lisse, à l'aide d'un mixer plongeant.",
+      "Verser dans les verres et garnir de chantilly parsemée de perles de chocolat ainsi que d'un sarment du Médoc."
+    ],
+    "conseil": "NB: Si vous aimez le café (comme moi!), vous pouvez ajouter une boule de glace café et ajouter un peu plus de café fort! Et si vous avez un blender (pas comme moi...) c'est peut-être plus facile que le mixer plongeant...",
+    "typeRecette": "boisson",
+    "source": "https://www.750g.com/milk-shake-au-cafe-r204606.htm",
+    "site": "750g.com",
+    "optionType": null
+  },
+  {
+    "_id": "Chaï-latte-au-lait-de-chèvre-entier-750g",
+    "nomRecette": "Chaï latte au lait de chèvre entier",
+    "imageRecette": "https://static.750g.com/images/640-420/d85d91fef4d451820b8c905bc539b2d3/chai-latte-3.jpg",
+    "note": "4/5",
+    "portion": "Non précisée",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "10min",
+    "tpsCuisson": "5min",
+    "tpsTotal": "15min",
+    "ingredients": [
+      "40 cl lait de chèvre Lactel® entier",
+      "40 cl d'eau filtrée",
+      "2 c à c de thé noir de bonne qualité",
+      "4 graines de cardamome verte",
+      "1 étoile de badiane",
+      "1 bâton de cannelle",
+      "3 clous de girofle",
+      "2 pincées de quatre épices",
+      "Du miel (facultatif)"
+    ],
+    "materiels": [],
+    "etapesPreparation": [
+      "Faire bouillir dans une casserole l'eau avec les épices pendant 3 minutes. Ajouter le thé noir et laisser bouillir en baissant un peu le feu encore 3 minutes.",
+      "",
+      "Verser le lait de chèvre Lactel® entier, ajouter le miel selon sa convenance et laisser le tout remonter à ébullition.",
+      "Filtrer à l'aide d'une passoire et servir aussitôt !"
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "boisson",
+    "source": "https://www.750g.com/chai-latte-au-lait-de-chevre-entier-r204573.htm",
+    "site": "750g.com",
+    "optionType": null
+  },
+  {
+    "_id": "Smoothie-bi-goût-myrtille/banane-à-la-vanille-et-au-lait-de-chèvre-750g",
+    "nomRecette": "Smoothie bi-goût myrtille/banane à la vanille et au lait de chèvre",
+    "imageRecette": "https://static.750g.com/images/640-420/5f486cc74b43930f1567e347ee9c63f3/smoothie-banane-myrtilles-v2.jpg",
+    "note": "4/5",
+    "portion": "Non précisée",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "10min",
+    "tpsCuisson": "Sans cuisson",
+    "tpsTotal": "10min",
+    "ingredients": [
+      "60 cl de lait de chèvre Lactel® entier",
+      "2 petites bananes",
+      "125g de myrtilles",
+      "2 sachets de sucre vanillé",
+      "1 gousse de vanille fraîche"
+    ],
+    "materiels": [],
+    "etapesPreparation": [
+      "Dans un blender, mixer les bananes avec la moitié du lait de chèvre Lactel® entier, un sachet de sucre vanillé et les graines de la gousse de vanille. Verser la préparation dans des verres jusqu’à mi-hauteur.",
+      "Mixer ensuite les myrtilles avec le lait de chèvre Lactel® entier restant et le 2e sachet de sucre vanillé.",
+      "",
+      "",
+      "Ajouter 2 glaçons dans chaque verre, puis verser délicatement le smoothie aux myrtilles sur celui à la banane et à la vanille de façon à obtenir un joli résultat bicolore.",
+      "À boire bien frais et à la paille !"
+    ],
+    "conseil": "Astuce : on peut remplacer le sucre vanillé par du miel de lavande pour encore plus d’originalité. ",
+    "typeRecette": "boisson",
+    "source": "https://www.750g.com/smoothie-bi-gout-myrtillebanane-a-la-vanille-et-au-lait-de-chevre-r204572.htm",
+    "site": "750g.com",
+    "optionType": null
+  },
+  {
+    "_id": "Thé-glacé-melon-et-framboises-750g",
+    "nomRecette": "Thé glacé melon et framboises",
+    "imageRecette": "https://static.750g.com/images/640-420/04fab1de5f88e758b5aece0179757d58/335489.jpg",
+    "note": "4/5",
+    "portion": "Non précisée",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "10min",
+    "tpsCuisson": "Sans cuisson",
+    "tpsTotal": "10min",
+    "ingredients": [
+      "15 g de thé vert parfumé ou non",
+      "1 c. à soupe de sirop de sucre de canne -facultatif)",
+      "1 l d'eau",
+      "1/2 melon",
+      "125 g de framboises",
+      "1/2 bouquet de menthe"
+    ],
+    "materiels": [],
+    "etapesPreparation": [
+      "Versez le thé en vrac dans une carafe.",
+      "Ajoutez l'eau en choisissant de préférence de l'eau filtrée.",
+      "Mélangez, couvrez et laissez infuser 30 minutes à température ambiante.",
+      "Passez au travers d'une passoire fine au dessus d'une carafe.",
+      "Ajoutez éventuellement du sirop de sucre de canne.",
+      "Prélevez des billes dans le demi melon à l'aide d'une cuillère parisienne. Mettez-les dans la carafe avec quelques feuilles de menthe puis réservez au frais pendant au moins 1 heure.",
+      "Servez le thé glacé avec des glaçons et éventuellement plus de feuilles de menthe."
+    ],
+    "conseil": "Vous pouvez mettre le thé en vrac dans des grandes mousselines pour gagner du temps.",
+    "typeRecette": "boisson",
+    "source": "https://www.750g.com/the-glace-melon-et-framboises-r204287.htm",
+    "site": "750g.com",
+    "optionType": null
+  },
+  {
+    "_id": "Thé-glacé-fraises-et-menthe-750g",
+    "nomRecette": "Thé glacé fraises et menthe",
+    "imageRecette": "https://static.750g.com/images/640-420/c54e888d9f20e6063e3acf6355113d54/335482.jpg",
+    "note": "5/5",
+    "portion": "Non précisée",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "10min",
+    "tpsCuisson": "Sans cuisson",
+    "tpsTotal": "10min",
+    "ingredients": [
+      "1 c à s de sirop de sucre de canne (facultatif)",
+      "15 g de thé vert parfumé",
+      "1 litre d'eau à température ambiante",
+      "250 g de fraises",
+      "1/2 bouquet de menthe"
+    ],
+    "materiels": [],
+    "etapesPreparation": [
+      "Versez le thé en vrac dans une carafe.",
+      "Ajoutez l'eau en choisissant de préférence de l'eau filtrée.",
+      "Mélangez, couvrez et laissez infuser 30 minutes à température ambiante.",
+      "Passez au travers d'une passoire fine au dessus d'une carafe.",
+      "Ajoutez éventuellement du sirop de sucre de canne.",
+      "Lavez puis équeuttez les fraises. Coupez-les en morceaux. Mettez-les dans la carafe avec quelques feuilles de menthe puis réservez au frais pendant au moins 1 heure.",
+      "Servez le thé glacé avec des glaçons et éventuellement plus de feuilles de menthe."
+    ],
+    "conseil": "Vous pouvez mettre le thé en vrac dans des grandes mousselines pour gagner du temps.",
+    "typeRecette": "boisson",
+    "source": "https://www.750g.com/the-glace-fraises-et-menthe-r204285.htm",
+    "site": "750g.com",
+    "optionType": null
+  },
+  {
+    "_id": "Limonade-à-l'ancienne-maison-750g",
+    "nomRecette": "Limonade à l'ancienne maison",
+    "imageRecette": "https://static.750g.com/images/640-420/515a08f901ea0449b62ac4f2ded2265c/limonade.jpg",
+    "note": "4/5",
+    "portion": "Non précisée",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "10min",
+    "tpsCuisson": "3min",
+    "tpsTotal": "13min",
+    "ingredients": [
+      "5 litres d'eau",
+      "500 g de sucre",
+      "4 fleurs du sureau ou de tilleuil",
+      "2 gros citrons jaunes non traités",
+      "1 cuilère à soupe de vinaigre blanc",
+      "1 cuillère à soupe de riz",
+      "1 poignée de raisins secs"
+    ],
+    "materiels": [],
+    "etapesPreparation": [
+      "Couper les citrons en lamelles.",
+      "Faire bouillir la peau pendant 3 minutes.",
+      "Une fois l'eau refroidie, la mettre dans un grand bocal, avec les citrons coupés, les fleurs de sureau, le sucre, le vinaigre, le riz et les raisins secs.",
+      "Fermer le bocal et laisser reposer 3 jours en retournant le bocal tous les jours.",
+      "Au bout de 3 jours, filtrer le contenu, et mettre en bouteille avec un bouchon tenant la pression. La fermentation va se faire rapidement, et la limonade aura des bulles."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "boisson",
+    "source": "https://www.750g.com/limonade-a-l-ancienne-maison-r204274.htm",
+    "site": "750g.com",
+    "optionType": null
+  },
+  {
+    "_id": "Cosmopolitain-750g",
+    "nomRecette": "Cosmopolitain",
+    "imageRecette": null,
+    "note": "4/5",
+    "portion": "1 portion",
+    "difficulte": "Facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "5min",
+    "tpsCuisson": "Sans cuisson",
+    "tpsTotal": "5min",
+    "ingredients": [
+      "4 cl de vodka",
+      "1,5 cl de cointreau",
+      "3 cl de jus de cranberry",
+      "1,5 cl de jus de citron vert"
+    ],
+    "materiels": [],
+    "etapesPreparation": [
+      "Mettez les glaçons dans la partie haute du shaker, versez le jus de citron vert, ajoutez 1,5 c à s de Cointreau, 3 cl de jus de cranberries et 4 cl de vodka dans l'autre partie.",
+      "Retirez l’excédant d'eau du shaker, ajoutez le mélange cocktail et shakez. Passez le cocktail à la passoire et décorez avec une tranche de citron vert pour servir."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "boisson",
+    "source": "https://www.750g.com/cosmopolitain-r204265.htm",
+    "site": "750g.com",
+    "optionType": null
+  }
+]

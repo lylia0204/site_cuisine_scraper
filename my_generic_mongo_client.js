@@ -1,11 +1,13 @@
-//myGenericMongoClient module (with MongoDB/MongoClient)
 var MongoClient = require('mongodb').MongoClient;
 var ObjectID = require('mongodb').ObjectID;
 var assert = require('assert');
 
-var mongoDbUrl = 'mongodb+srv://lilya0204:sakura123@cluster-lylaya.3v1kt.mongodb.net/recettes?retryWrites=true&w=majority/recettes'; //by default
-var dbName = "recettes" //by default
-var currentDb = null; //current MongoDB connection
+var mongoDbUrl = process.env.MONGODB_URI || MONGODB_URI;
+//var mongoDbUrl = "mongodb+srv://lilya0204:sakura123@cluster-lylaya.3v1kt.mongodb.net/recettes?retryWrites=true&w=majority/recettes"
+
+//var dbName =  "recettes"
+var dbName =  process.env.DB_NAME || DB_NAME;
+var currentDb = null; 
  
 var setMongoDbUrl = function (dbUrl) {
 	mongoDbUrl = dbUrl;
@@ -50,7 +52,7 @@ var genericUpdateOne = function (collectionName, id, changes, callback_with_err_
 	});
 };
 
-// mettre a jour plusieurs recettes, et ajout des nouvelles
+// mettre a jour plusieurs objets, et ajout des nouveaux
 var genericUpdateOneScrap = function (collectionName, id, changes, callback_with_err_and_results) {
 	executeInMongoDbConnection(function (db) {
 		db.collection(collectionName).updateOne({ '_id': id }, { $set: changes }, { upsert: true },

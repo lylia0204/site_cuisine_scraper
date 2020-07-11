@@ -1,0 +1,339 @@
+[
+  {
+    "_id": "Salade-à-la-Féta-ou-Salade-Chopska-750g",
+    "nomRecette": "Salade à la Féta ou Salade Chopska",
+    "imageRecette": null,
+    "note": "5/5",
+    "portion": "2 personnes",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "10min",
+    "tpsCuisson": "Sans cuisson",
+    "tpsTotal": "10min",
+    "ingredients": [
+      "3 tomates coeur de boeuf",
+      "1 concombre",
+      "125 g de feta",
+      "1 poivron rouge",
+      "Olive noire",
+      "1 persil plat",
+      "Huile",
+      "Vinaigre",
+      "Sel ou sel fin",
+      "Poivre"
+    ],
+    "materiels": [],
+    "etapesPreparation": [
+      "Couper le poivron en deux, retirer le coeur et les pépins et le couper en petits cubes. Couper le concombre en deux (en gardant la peau), retirer les extrémités et le coeur & pépins puis le couper en petits dès. Couper les tomates en dès et mélanger le tout. Saler et poivrer.",
+      "Mélanger huile et vinaigre et l'ajouter aux cubes de crudités, ajouter les olives coupées en rondelles, la feta râpée, le persil plat et arroser de vinaigrette. A servir bien frais."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "entree",
+    "source": "https://www.750g.com/salade-a-la-feta-ou-salade-chopska-r204221.htm",
+    "site": "750g.com",
+    "optionType": "salade"
+  },
+  {
+    "_id": "Salade-de-riz-au-thon-750g",
+    "nomRecette": "Salade de riz au thon",
+    "imageRecette": "https://static.750g.com/images/640-420/cc86246a8791b88ecbe159f9190bab69/saladerizthon.jpeg",
+    "note": "4/5",
+    "portion": "Non précisée",
+    "difficulte": "Facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "15min",
+    "tpsCuisson": "Sans cuisson",
+    "tpsTotal": "15min",
+    "ingredients": [
+      "2 sachets de riz cuisiné Long grain Uncle Ben’s®",
+      "3 cl de vinaigre",
+      "3 cl d'eau",
+      "100g de mayonnaise",
+      "200g de tomates fermes",
+      "125g de thon à l'huile égoutté",
+      "1 petite boîte de maïs",
+      "1 concombre",
+      "1 citron",
+      "Sel",
+      "Poivre du moulin ou piment d'Espelette"
+    ],
+    "materiels": [],
+    "etapesPreparation": [
+      "Faites cuire le riz en suivant les instructions au dos du paquet. Laissez refroidir dans un bol au réfrigérateur.",
+      "Coupez les tomates, le concombre en 1/2 rondelles, émiettez le thon et égouttez le maïs. Réalisez la sauce en mélangeant le vinaigre, la mayonnaise, le jus du citron et l'eau et assaisonnez de sel et poivre.",
+      "Mélangez délicatement tous les ingrédients, assaisonnez et servez bien froid."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "entree",
+    "source": "https://www.750g.com/salade-de-riz-au-thon-r204129.htm",
+    "site": "750g.com",
+    "optionType": "salade"
+  },
+  {
+    "_id": "Salade-de-riz-complet-à-la-mexicaine-750g",
+    "nomRecette": "Salade de riz complet à la mexicaine",
+    "imageRecette": "https://static.750g.com/images/640-420/6757ad5587055fd838a868466bdffd84/riz-complet-bio-produit.jpg",
+    "note": "5/5",
+    "portion": "Non précisée",
+    "difficulte": "Facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "10min",
+    "tpsCuisson": "40min",
+    "tpsTotal": "50min",
+    "ingredients": [
+      "250g de riz complet bio Uncle Ben's®",
+      "1 boîte de maïs",
+      "1 boîte de haricots rouges",
+      "1 poivron rouge",
+      "1 oignon rouge",
+      "5 cl de bouillon",
+      "4 brins de coriandre émincés",
+      "1 c à s d'ail semoule",
+      "Le jus de 2 citrons verts",
+      "2 brins de coriandre émincés",
+      "1 càs de sirop d'agave",
+      "2 càs d'eau",
+      "1 pincée de cumin"
+    ],
+    "materiels": [
+      "Saladier",
+      "Sauteuse"
+    ],
+    "etapesPreparation": [
+      "Faites cuire le riz complet bio comme indiqué sur le paquet et égouttez.  Coupez l'oignon et le poivron en petits cubes et mettez-les dans la sauteuse. Ajoutez l'ail semoule ainsi que le bouillon et cuisez une dizaine de minutes, jusqu'à l'absorption totale de l'eau.",
+      "Ajoutez le maïs et les haricots rouges égouttés, ainsi que la coriandre et mélangez le tout ensemble. Dans un saladier, versez le contenu de la sauteuse avec le riz complet. Mélangez. Dans un petit bol, mélangez tous les ingrédients pour la sauce et versez sur le riz."
+    ],
+    "conseil": "Pour faire la salade en temps restreint, utilisez-le riz complet Uncle Ben’s prêt en 12 minutes !",
+    "typeRecette": "entree",
+    "source": "https://www.750g.com/salade-de-riz-complet-a-la-mexicaine-r204127.htm",
+    "site": "750g.com",
+    "optionType": "salade"
+  },
+  {
+    "_id": "Salade-Picarde-aux-lardons-750g",
+    "nomRecette": "Salade Picarde aux lardons",
+    "imageRecette": null,
+    "note": "4/5",
+    "portion": "Non précisée",
+    "difficulte": "Facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "10min",
+    "tpsCuisson": "13min",
+    "tpsTotal": "23min",
+    "ingredients": [
+      "2 tranche de pain de campagne",
+      "3 fines tranches de Maroilles",
+      "Lardons en gros dés",
+      "Emmental râpé",
+      "6 petites pommes de terre cuites",
+      "1 endive",
+      "1 oignon",
+      "1 c à s de crème fraîche",
+      "1 filet d'huile d'olive",
+      "5 cl de vinaigre"
+    ],
+    "materiels": [
+      "Poêle",
+      "Saladier"
+    ],
+    "etapesPreparation": [
+      "Émincez 1 oignon, coupez les pommes de terre cuites avec la peau en 4 dans la longueur. Faites chauffer une poêle avec un peu d'huile, ajoutez les pommes de terre et l'oignon. Découpez le lard en gros lardons, ajoutez-les dans la poêle.",
+      "Découpez une tartine de pain de campagne. Couvrez d'une belle épaisseur de crème fraîche, ajoutez des tranches de maroilles et couvrez d’emmental, faites cuire 2 à 3 minutes à 200°C.",
+      "Préparez une salade de pissenlit et endives. Déglacez la poêlée de pommes de terre avec du vinaigre. Servez avec la salade et un tour de poivre du moulin."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "entree",
+    "source": "https://www.750g.com/salade-picarde-aux-lardons-r204117.htm",
+    "site": "750g.com",
+    "optionType": "salade"
+  },
+  {
+    "_id": "Salade-de-poulpe-750g",
+    "nomRecette": "Salade de poulpe",
+    "imageRecette": null,
+    "note": "5/5",
+    "portion": "Non précisée",
+    "difficulte": "Très facile",
+    "budget": "Budget moyen",
+    "tpsPreparation": "15min",
+    "tpsCuisson": "Sans cuisson",
+    "tpsTotal": "15min",
+    "ingredients": [
+      "1 poulpe cuit",
+      "Quelques pommes de terre déjà cuites à l'eau",
+      "Tomates confites",
+      "2 échalotes",
+      "1 poivron",
+      "Céleri branche",
+      "Câpres",
+      "Vinaigre de Xérès",
+      "Huile d'olive",
+      "Basilic",
+      "Coriandre",
+      "Piment d'Espelette",
+      "1 grosse pincée de sel"
+    ],
+    "materiels": [
+      "Saladier"
+    ],
+    "etapesPreparation": [
+      "Découpez le poulpe en lamelles. Préparez la vinaigrette dans le saladier, en mélangeant le vinaigre de xérès et le sel. Ajoutez le piment d’Espelette, montez la vinaigrette à l'huile d'olive. Ajoutez les échalotes hachées, des câpres et les morceaux de poulpe. Mélangez.",
+      "Ajoutez le céleri coupé finement, des tomates confites coupées en lamelles et 1/2 poivron en fines lanières. Puis les pommes de terre coupées en dès, le basilic et la coriandre. C'est prêt."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "entree",
+    "source": "https://www.750g.com/salade-de-poulpe-r204116.htm",
+    "site": "750g.com",
+    "optionType": "salade"
+  },
+  {
+    "_id": "Salade-de-poivrons-confits-750g",
+    "nomRecette": "Salade de poivrons confits",
+    "imageRecette": null,
+    "note": "4/5",
+    "portion": "4 personnes",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "15min",
+    "tpsCuisson": "30min",
+    "tpsTotal": "45min",
+    "ingredients": [
+      "3 poivrons",
+      "1 tomate",
+      "0,5 oignon",
+      "80 g d'olives",
+      "3 c. à s. d'huile d'olive",
+      "2 c. à s. de vinaigre de vin",
+      "Piment d'Espelette",
+      "Sel ou sel fin",
+      "Poivre"
+    ],
+    "materiels": [
+      "Film alimentaire",
+      "Four traditionnel",
+      "Plaque de cuisson pour four",
+      "Saladier"
+    ],
+    "etapesPreparation": [
+      "Faites confire les poivrons. Pour cela disposez-les entiers sur une plaque de four et faites cuire 30 minutes à 210°C. A la sortie du four et à l'aide d'un couteau retirez la peau et les pépins, puis découpez-les en lanières.",
+      "Déposez dans un saladier, ajoutez la tomate coupée en quartiers, l'oignon ciselé et mélangez.",
+      "Ajoutez 2 c à s de vinaigre de vin, 3 c à s d'huile d'olive, du sel, du poivre, une pincée de piment d’Espelette et des olives vertes. Mélangez. Filmez le saladier et réservez au réfrigérateur."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "entree",
+    "source": "https://www.750g.com/salade-de-poivrons-confits-r204115.htm",
+    "site": "750g.com",
+    "optionType": "salade"
+  },
+  {
+    "_id": "Salade-de-légumes-du-soleil-grillés-à-la-burrata-750g",
+    "nomRecette": "Salade de légumes du soleil grillés à la burrata",
+    "imageRecette": null,
+    "note": "4/5",
+    "portion": "Non précisée",
+    "difficulte": "Facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "20min",
+    "tpsCuisson": "35min",
+    "tpsTotal": "55min",
+    "ingredients": [
+      "2 courgettes",
+      "1 poivron rouge",
+      "1 poivron jaune",
+      "1 aubergine",
+      "400 g de tomates cerises",
+      "5 gousses d'ail",
+      "Huile d'olive",
+      "Sel",
+      "Poivre du moulin",
+      "Herbes de Provence",
+      "4 c à s d'huile d'olive",
+      "1 botte de basilic frais",
+      "Sel",
+      "Poivre du moulin",
+      "Piment d'Espelette (ou paprika moulu)",
+      "1 poignée de roquette",
+      "1 poignée de pignons",
+      "1 à 2 Burrata Casa Azzurra (selon la taille)"
+    ],
+    "materiels": [],
+    "etapesPreparation": [
+      "Préchauffez le four à 190°C. Lavez les courgettes, les poivrons et l'aubergine. Nettoyez-les et coupez-les en gros dés. Lavez les tomates cerise et coupez-les à moitié. Disposez le tout dans un saladier. Arrosez généreusement d'huile d'olive, salez, poivrez, saupoudrez d'herbes de Provence et mélangez le tout. Mettez les légumes dans un plat allant au four, enfournez 30 à 35 minutes, jusqu’à ce que les légumes soient rôtis. Ôtez-les du four et laissez-les tiédir. Ajoutez ensuite la roquette et les pignons.",
+      "Préparez la gremolata, en commençant par hacher finement environ 8 feuilles de basilic frais. Disposez-les dans un bol, ajoutez l'huile d'olive, du sel, du poivre du moulin et un peu de piment d'Espelette. Dressez la salade de légumes rôtis sur une assiette, posez la burrata par-dessus, assaisonnez avec un filet de gremolata et servez."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "entree",
+    "source": "https://www.750g.com/salade-de-legumes-du-soleil-grilles-a-la-burrata-r203958.htm",
+    "site": "750g.com",
+    "optionType": "salade"
+  },
+  {
+    "_id": "Tomates-mozzarella-au-parfum-de-basilic-750g",
+    "nomRecette": "Tomates mozzarella au parfum de basilic",
+    "imageRecette": null,
+    "note": "4/5",
+    "portion": "3 personnes",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "5min",
+    "tpsCuisson": "Sans cuisson",
+    "tpsTotal": "5min",
+    "ingredients": [
+      "300 g de tomates",
+      "1 boule de mozzarella",
+      "3 olives noires",
+      "Feuille de basilic",
+      "3 cl d'huile d'olive",
+      "1 ciboulette",
+      "Fleur de sel",
+      "Poivre du moulin"
+    ],
+    "materiels": [],
+    "etapesPreparation": [
+      "Monder les tomates (facultatif) puis les couper en rondelles. Couper la mozzarella en deux puis en rondelles, de même taille que les tomates.",
+      "Sur une assiette, dresser en cercle la salade en alternant 2 rondelles de tomate, 1 rondelle de mozzarella. Ajouter les feuilles de basilic, les olives, la ciboulette et la fleur de sel. Terminer par un filet d'huile d'olive."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "entree",
+    "source": "https://www.750g.com/tomates-mozzarella-r203844.htm",
+    "site": "750g.com",
+    "optionType": "salade"
+  },
+  {
+    "_id": "Couscous-en-perles-au-pesto-de-roquette-750g",
+    "nomRecette": "Couscous en perles au pesto de roquette",
+    "imageRecette": null,
+    "note": "4/5",
+    "portion": "Non précisée",
+    "difficulte": "Facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "20min",
+    "tpsCuisson": "12min",
+    "tpsTotal": "32min",
+    "ingredients": [
+      "100 g de roquette",
+      "100 g de parmesan râpé",
+      "50 g d'amandes blanchies (sans peau)",
+      "1 poignée de roquette pour la déco finale",
+      "1 gousse d'ail",
+      "Huile d'olive",
+      "2 sachets de Couscous en Perles Ebly®",
+      "100 g de tomates cerises",
+      "100 g de billes de mozzarella",
+      "100 g de jambon de Bayonne (ou Parme, ou Serrano)"
+    ],
+    "materiels": [
+      "Robot mixeur",
+      "Saladier"
+    ],
+    "etapesPreparation": [
+      "Lavez et essorez la roquette, mettez-la dans le bon d'un petit mixeur. Ajoutez tous les autres ingrédients et un généreux filet d'huile d'olive. Mixez jusqu'à l'obtention d'un pesto lisse. Ajoutez de l'huile si besoin pour délayer.",
+      "Faites cuire le Couscous en Perles dans de l'eau bouillante salée, en suivant le temps de cuisson indiqué sur le paquet. Une fois cuit égouttez-le et versez-le dans un saladier. Assaisonnez avec le pesto de roquette, mélangez. Ajoutez les tomates cerises coupées en deux, les billes de mozzarella et le jambon coupé en lanières. Terminez avec quelques feuilles de roquette fraîche et servez."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "entree",
+    "source": "https://www.750g.com/coucous-en-perles-au-pesto-de-roquette-r203796.htm",
+    "site": "750g.com",
+    "optionType": "salade"
+  }
+]

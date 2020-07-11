@@ -1,0 +1,235 @@
+[
+  {
+    "_id": "Punch-à-l'ananas-et-au-Champagne-750g",
+    "nomRecette": "Punch à l'ananas et au Champagne",
+    "imageRecette": "https://static.750g.com/images/640-420/2ef6ca2dcf7e9d9c9af10fe5f4548764/fotolia-101268733-1.jpg",
+    "note": "3/5",
+    "portion": "8 personnes",
+    "difficulte": "Très facile",
+    "budget": "Budget moyen",
+    "tpsPreparation": "10min",
+    "tpsCuisson": "1h 30min",
+    "tpsTotal": "10min",
+    "ingredients": [
+      "Jus d'ananas",
+      "Sucre roux",
+      "3 c. à s. de jus de citron vert",
+      "Rhum ambré",
+      "Menthe",
+      "Champagne"
+    ],
+    "materiels": [],
+    "etapesPreparation": [
+      "Dans un saladier, mettez dans l'ordre les ingrédients suivants  : 50 cl de jus d'ananas, 80 g de sucre roux, 3 c.a.s de jus de citron vert, 20 cl de rhum ambré et quelques feuilles de menthe fraîche.",
+      "Mélanger, et laissez reposer au frais pendant 1 heure et 30 minutes.",
+      "À la dernière minute, ajoutez la bouteille de Champagne. Servez à vos convives. Régalez vous."
+    ],
+    "conseil": "Je rajoute un peu de vanille",
+    "typeRecette": "boisson",
+    "source": "https://www.750g.com/punch-a-l-ananas-et-au-champagne-r205302.htm",
+    "site": "750g.com",
+    "optionType": null
+  },
+  {
+    "_id": "Jus-aux-agrumes-à-la-centrifugeuse-750g",
+    "nomRecette": "Jus aux agrumes à la centrifugeuse",
+    "imageRecette": "https://static.750g.com/images/640-420/2d87db95712dc717698e9dbd22421ad9/jus-agrumes-et-pain-de-singe-8-.jpg",
+    "note": "4/5",
+    "portion": "2 personnes",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "5min",
+    "tpsCuisson": "Sans cuisson",
+    "tpsTotal": "5min",
+    "ingredients": [
+      "Pamplemousse",
+      "Mandarine",
+      "Orange",
+      "Poire"
+    ],
+    "materiels": [
+      "Centrifugeuse"
+    ],
+    "etapesPreparation": [
+      "Peler l'orange, les pamplemousses et les mandarines, les couper afin qu'ils ne soient pas trop gros. Coupez la poire en deux. Passer tous les fruits à la centrifugeuse.",
+      "Répartir ensuite dans 2 verres. Ajoutez des glaçons et servez."
+    ],
+    "conseil": "Il est toujours conseillé de rincer rapidement tous les éléments de la centrifugeuse sous l'eau chaude afin de ne pas avoir la surprise de déchets collants. ",
+    "typeRecette": "boisson",
+    "source": "https://www.750g.com/jus-aux-agrumes-centrifugeuse-r205297.htm",
+    "site": "750g.com",
+    "optionType": null
+  },
+  {
+    "_id": "Jus-d'orange,-pamplemousse,-kiwi-et-sirop-d'amour-750g",
+    "nomRecette": "Jus d'orange, pamplemousse, kiwi et sirop d'amour",
+    "imageRecette": "https://static.750g.com/images/640-420/1642351870b781e064476b425c92fbd5/jus-orange-pamplemousse-kiwi-8-.jpg",
+    "note": "4/5",
+    "portion": "2 personnes",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "5min",
+    "tpsCuisson": "Sans cuisson",
+    "tpsTotal": "5min",
+    "ingredients": [
+      "1 orange",
+      "1 pamplemousse",
+      "1 kiwi",
+      "1 c. à c. d'acérola en poudre",
+      "1 c. à s. de sirop élixir d'amour"
+    ],
+    "materiels": [
+      "Extracteur de jus"
+    ],
+    "etapesPreparation": [
+      "Peler l'orange, le pamplemousse, le kiwi et les couper afin qu'ils ne soient pas trop gros pour la centrifugeuse. Passer tous les fruits à la centrifugeuse.",
+      "Ajouter l'acérola et le sirop d'amour dans le jus et bien mélanger.",
+      "Répartir ensuite dans 2 verres, avec glaçons."
+    ],
+    "conseil": "NB: Il est toujours conseillé de rincer rapidement tous les outils sous l'eau chaude afin de ne pas avoir la surprise de déchets collants... L'acérola est une petite cerise pleine de vitamine C, qui fait de lui un complément idéal en cas de fatigue ou de surmenage, mais aussi pour lutter contre les maux de l'hiver en renforçant le système immunitaire. L'acérola présente des propriétés anti-inflammatoires et anti-oxydantes.",
+    "typeRecette": "boisson",
+    "source": "https://www.750g.com/jus-d-orange-pamplemousse-kiwi-et-sirop-d-amour-r205231.htm",
+    "site": "750g.com",
+    "optionType": null
+  },
+  {
+    "_id": "Smoothie-healthy-cacao-et-banane-750g",
+    "nomRecette": "Smoothie healthy cacao et banane",
+    "imageRecette": "https://static.750g.com/images/640-420/f428fb465a253fb4c55daae9767a64c3/smoothie.jpg",
+    "note": "4/5",
+    "portion": "1 portion",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "5min",
+    "tpsCuisson": "Sans cuisson",
+    "tpsTotal": "5min",
+    "ingredients": [
+      "25 cl de boisson végétale (anciennement Lait végétal)",
+      "1 banane",
+      "2 dattes",
+      "1 c. à s. de flocons d'avoine",
+      "1 c. à s. de beurre de cacahuètes",
+      "3 c. à c. de cacao amer ou poudre de cacao non sucrée",
+      "1 poignée de pousses d'épinards"
+    ],
+    "materiels": [
+      "Blender"
+    ],
+    "etapesPreparation": [
+      "Mettre la banane coupée en morceaux, les dattes, les pousses d'épinards, le cacao, les flocons d'avoine, la purée de cacahuète dans le blender et recouvrir de lait. Mixer.",
+      "Servir de suite le smoothie tel quel, tiède ou même frais en ajoutant quelques glaçons avant de mixer."
+    ],
+    "conseil": "Les épinards sont facultatifs, mais ils apportent un apport en calcium et légumes en plus, incognito.",
+    "typeRecette": "boisson",
+    "source": "https://www.750g.com/smoothie-healthy-cacao-et-banane-r205197.htm",
+    "site": "750g.com",
+    "optionType": null
+  },
+  {
+    "_id": "Chocolat-chaud-healthy-au-lait-d'amande-750g",
+    "nomRecette": "Chocolat chaud healthy au lait d'amande",
+    "imageRecette": "https://static.750g.com/images/640-420/2f39d68be9aba0a8d47f69fe37bf1dd5/choco-chaud-img-4735.jpg",
+    "note": "4/5",
+    "portion": "4 personnes",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "10min",
+    "tpsCuisson": "5min",
+    "tpsTotal": "15min",
+    "ingredients": [
+      "60 cl de lait d'amande",
+      "4 c. à c. de cacao amer ou poudre de cacao non sucrée",
+      "2 c. à c. de miel",
+      "2 bâtons de cannelle"
+    ],
+    "materiels": [
+      "Casserole",
+      "Fouet"
+    ],
+    "etapesPreparation": [
+      "Chauffez le lait d’amendes dans une casserole avec le bâton de cannelle.",
+      "Ajoutez au fur et à mesure la poudre de cacao.",
+      "Mélangez  délicatement votre préparation à l’aide d’un fouet.",
+      "Laissez frémir le mélange quelques instants puis retirez votre casserole du feu.",
+      "Ajoutez le miel et mélangez.",
+      "Dégustez aussitôt."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "boisson",
+    "source": "https://www.750g.com/chocolat-chaud-healthy-au-lait-d-amande-r205039.htm",
+    "site": "750g.com",
+    "optionType": null
+  },
+  {
+    "_id": "Thé-de-Noël-750g",
+    "nomRecette": "Thé de Noël",
+    "imageRecette": "https://static.750g.com/images/640-420/01b392801a43ceb0fa6fae5590faccee/thenoel.jpeg",
+    "note": "4.5/5",
+    "portion": "1 pièce",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "5min",
+    "tpsCuisson": "10min",
+    "tpsTotal": "15min",
+    "ingredients": [
+      "100 g de thé noir ou Thé vert",
+      "2 oranges",
+      "1 c. à c. de cannelle en poudre",
+      "0,5 c. à c. de gingembre (en poudre)",
+      "1 gousse de vanille",
+      "0,5 c. à c. de cardamone en poudre",
+      "Clou de girofle",
+      "Bâton de cannelle",
+      "Anis étoilé ou Badiane"
+    ],
+    "materiels": [
+      "Canneleur zesteur",
+      "Boîte(s) hermétique(s)",
+      "Bol(s)"
+    ],
+    "etapesPreparation": [
+      "Zester l'orange et faire sécher les zestes au four à 120°C pendant 10 à 15 minutes ou quelques minutes au micro-ondes sur une feuille de papier essuie-tout. Laisser refroidir et réserver.",
+      "Dans un bol, verser le thé noir, ajouter les épices, les grains de vanille, les clous de girofle écrasés et mélanger. Verser le thé obtenu dans une boîte hermétique.",
+      "Pour servir, faire infuser à peine une cuillère et demi de thé et laisser infuser dans une eau à 90°C pendant 3 minutes. Servir bien chaud avec un bâton de cannelle, une étoile de badiane, une fine tranche d'orange un peu de miel et quelques biscuits de Noël."
+    ],
+    "conseil": "On peut ajouter des zestes de citron ou de clémentine et varier les épices au choix. ",
+    "typeRecette": "boisson",
+    "source": "https://www.750g.com/the-de-noel-r204899.htm",
+    "site": "750g.com",
+    "optionType": null
+  },
+  {
+    "_id": "Milk-shake-à-la-banane,-pistache-et-spiruline-750g",
+    "nomRecette": "Milk shake à la banane, pistache et spiruline",
+    "imageRecette": "https://static.750g.com/images/640-420/1b6b108da9fd9f84bd46d5ab2b054ce5/milkshate-banane-pistache-spiruline-7-.jpg",
+    "note": "4/5",
+    "portion": "2 personnes",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "5min",
+    "tpsCuisson": "Sans cuisson",
+    "tpsTotal": "5min",
+    "ingredients": [
+      "250 ml de lait entier",
+      "1 banane",
+      "6 boules de pistaches",
+      "Crème chantilly",
+      "1 c. à c. de spiruline",
+      "Perle craquante au chocolat",
+      "Sarment du Médoc chocolat noir framboise"
+    ],
+    "materiels": [
+      "Mixeur plongeant",
+      "Saladier"
+    ],
+    "etapesPreparation": [
+      "Dans un bol haut, verser le lait et ajouter la glace à la pistache, la banane (épluchée!) coupée en rondelles et la spiruline.",
+      "Mixer jusqu'à consistance lisse, à l'aide d'un mixer plongeant. Verser dans les verres et garnir de chantilly parsemée de perles de chocolat ainsi que d'un sarment du Médoc."
+    ],
+    "conseil": "NB: Vérifier la consistance souhaitée après avoir mixé: si trop épais, ajoutez un peu de lait; si trop liquide, ajoutez un peu de glace ou encore un peu de banane...",
+    "typeRecette": "boisson",
+    "source": "https://www.750g.com/milk-shake-a-la-banane-pistache-et-spiruline-r204831.htm",
+    "site": "750g.com",
+    "optionType": null
+  }
+]

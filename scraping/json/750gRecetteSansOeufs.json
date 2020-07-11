@@ -1,0 +1,787 @@
+[
+  {
+    "_id": "Crêpes-sans-oeufs-et-délicieuses-750g",
+    "nomRecette": "Crêpes sans oeufs et délicieuses",
+    "imageRecette": "https://static.750g.com/images/640-420/9e5368a603d6b7ac0dd94e8c9594c130/thinkstockphotos-510238596.jpg",
+    "note": "3.9/5",
+    "portion": "Non précisé",
+    "difficulte": "Facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "15min",
+    "tpsCuisson": "Sans cuisson",
+    "tpsTotal": "15min",
+    "ingredients": [
+      "300g de farine",
+      "60 cl de lait",
+      "2 sachets de sucre vanillé",
+      "1 pincée de sel",
+      "1 c à s de sucre en poudre",
+      "3 c à s d'huile"
+    ],
+    "materiels": [
+      "Poêle",
+      "Robot mixeur"
+    ],
+    "etapesPreparation": [
+      "Mettre tous les ingrédients dans un mixeur ou un saladier (mélanger avec un batteur électrique) jusqu'à obtention du pâte lisse sans grumeaux",
+      "Faire chauffer la poêle à crêpes avec un peu d'huile essuyer la poêle avec un essuie tout.",
+      "Déposer une louche de pâte dans la poêle et faire cuire, déposer les crêpes dans une assiette.",
+      "Refrotter la poêle avec l'essuie tout et refaire une louche de pâte ainsi de suite.",
+      "Déguster avec n'importe quel ingrédient."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": null,
+    "source": "https://www.750g.com/pates-a-crepes-sans-oeufs-et-delicieuses-r88851.htm",
+    "site": "750g.com",
+    "optionType": "sansOeufs"
+  },
+  {
+    "_id": "Gâteau-au-chocolat-sans-oeuf-750g",
+    "nomRecette": "Gâteau au chocolat sans oeuf",
+    "imageRecette": null,
+    "note": "3.3/5",
+    "portion": "4 personnes",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "10min",
+    "tpsCuisson": "40min",
+    "tpsTotal": "50min",
+    "ingredients": [
+      "150 g de farine",
+      "100 g de cacao",
+      "100 g de beurre",
+      "50 g de sucre",
+      "30 cl de lait",
+      "1 sachet de levure chimique"
+    ],
+    "materiels": [
+      "Fouet",
+      "Four traditionnel",
+      "Moule à manqué ou rond",
+      "Saladier"
+    ],
+    "etapesPreparation": [
+      "Mélangez le sucre et le beurre mou jusqu'à obtenir une crème.",
+      "Ajoutez les poudres (farine, sucre, levure, cacao) et délayez doucement avec le lait.",
+      "Versez dans en moule silicone (ou dans un moule bien chemisé) et enfournez 40 minutes à 180°C."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": null,
+    "source": "https://www.750g.com/gateau-au-chocolat-sans-oeuf-r99722.htm",
+    "site": "750g.com",
+    "optionType": "sansOeufs"
+  },
+  {
+    "_id": "Gâteau-moelleux-au-yaourt-sans-oeuf-750g",
+    "nomRecette": "Gâteau moelleux au yaourt sans oeuf",
+    "imageRecette": "https://static.750g.com/images/640-420/9a8e7e296000e676558d63e2e99db1ff/gateau-yaourt-sans-oeufs.jpg",
+    "note": "3.7/5",
+    "portion": "Non précisé",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "10min",
+    "tpsCuisson": "35min",
+    "tpsTotal": "45min",
+    "ingredients": [
+      "2 yaourts (2 pots de 125 g)",
+      "3 pots de farine",
+      "1 pot de sucre",
+      "1/2 pot d'huile",
+      "1 sachet de levure chimique",
+      "Un peu d'extrait de vanille",
+      "2 pincées de sel",
+      "Beurre (pour le moule)",
+      "Farine (pour le moule)"
+    ],
+    "materiels": [
+      "Four traditionnel",
+      "Moule à cake",
+      "Moule à manqué ou rond"
+    ],
+    "etapesPreparation": [
+      "Préchauffez votre four à 165°C. Beurrez puis farinez un moule de 18 à 20 cm de diamètre. Ça marche aussi dans un moule à cake.",
+      "Dans un bol, fouettez les yaourts, le sucre, le sel et la vanille. Ajoutez l'huile et mélangez à nouveau.",
+      "Ajoutez la farine, la levure et mélangez à nouveau.",
+      "Versez la pâte à gâteau dans votre moule beurré. Lissez la surface et enfournez pour 25 minutes environ. Vérifiez la cuisson avec la pointe d'un couteau.",
+      "Attendez 5 minutes avant de démouler sur une grille."
+    ],
+    "conseil": "Vous pouvez parsemer le gâteau d'amandes effilées torréfiées dans une poêle sèche ou pourquoi ne pas ajouter des pépites de chocolat ou des raisins secs ?",
+    "typeRecette": null,
+    "source": "https://www.750g.com/gateau-au-yaourt-sans-oeuf-r82569.htm",
+    "site": "750g.com",
+    "optionType": "sansOeufs"
+  },
+  {
+    "_id": "Tiramisu-sans-oeufs-750g",
+    "nomRecette": "Tiramisu sans oeufs",
+    "imageRecette": "https://static.750g.com/images/640-420/a2108fce8fdd4e21683e0a554cf7a26c/tiramisu.jpg",
+    "note": "3.8/5",
+    "portion": "Non précisé",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "20min",
+    "tpsCuisson": "1h 30min",
+    "tpsTotal": "20min",
+    "ingredients": [
+      "50 cl de crème liquide entière froide",
+      "250g de mascarpone",
+      "20 cl de café fort tiède",
+      "36 biscuits à la cuillères",
+      "2 c à s de cacao",
+      "2 c à s de lait"
+    ],
+    "materiels": [
+      "Poche à douille"
+    ],
+    "etapesPreparation": [
+      "Monter la crème en chantilly en rajoutant 150g de sucre, mélanger le mascarpone le lait et 50g de sucre, incorporer la chantilly au mascarpone sans fouetter en soulevant la masse, mettre cettre préparation au frais.",
+      "Préparer le café, prendre un grand plat ou des verinnes, tremper les biscuits dans le café un par un et dresser sur le plat cote à cote, mettre une couche de crème de mascarpone en recouvrant bien les biscuits faites ainsi 3 fois la dernière couche de crème la décorer avec une poche à douille et saupoudrer de cacao tamisé.",
+      "Mettre au frais au moins 3 heures et servir frais."
+    ],
+    "conseil": "Mettre le fouet et le bol du batteur au frais 15 minutes avant de monter la chantilly et sortir le mascarpone 10 minutes avant son utilisation.",
+    "typeRecette": null,
+    "source": "https://www.750g.com/tiramisu-sans-oeufs-r32183.htm",
+    "site": "750g.com",
+    "optionType": "sansOeufs"
+  },
+  {
+    "_id": "Pancakes-sans-oeuf-750g",
+    "nomRecette": "Pancakes sans oeuf",
+    "imageRecette": "https://static.750g.com/images/640-420/11d421655df8ebbcb67727325a3da5cd/pancakes-sans-oeuf.jpeg",
+    "note": "4/5",
+    "portion": "4 personnes",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "10min",
+    "tpsCuisson": "20min",
+    "tpsTotal": "30min",
+    "ingredients": [
+      "2 c. à s. bombée(s) de fécule de pomme de terre",
+      "0,5 lait",
+      "Extrait de vanille ou vanille liquide ou Rhum ambré",
+      "1 sachet de levure chimique",
+      "1 sachet de sucre vanillé",
+      "80 g de sucre roux",
+      "100 g de beurre",
+      "250 g de farine"
+    ],
+    "materiels": [],
+    "etapesPreparation": [
+      "Mélanger la farine, le sucre, la fécule, les 2 sachets (levure et sucre vanillé) dans un saladier.\nFaites un puits, ajouter le beurre fondu, ajouter le lait, l'arôme et homogénéiser la pâte.",
+      "Laisser reposer 2h.\nDéposer une petite louche de pâte dans une poêle anti-adhésive légèrement huilée et faire cuire à feu vif jusqu'à ce le pancake soit doré de chaque côté."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": null,
+    "source": "https://www.750g.com/pancakes-sans-oeuf-r73817.htm",
+    "site": "750g.com",
+    "optionType": "sansOeufs"
+  },
+  {
+    "_id": "Gâteau-sans-oeuf-à-la-banane-750g",
+    "nomRecette": "Gâteau sans oeuf à la banane",
+    "imageRecette": "https://static.750g.com/images/640-420/9733879bf9db1469fcf5f0170e034b04/gateau-sans-oeuf-a-la-banane.png",
+    "note": "3.9/5",
+    "portion": "Non précisé",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "10min",
+    "tpsCuisson": "25min",
+    "tpsTotal": "35min",
+    "ingredients": [
+      "3 bananes mûres en purée ( plus elles le sont meilleur est le gâteau)",
+      "2 tasses de farine",
+      "1 tasse de sucre",
+      "10 Cl d'huile",
+      "1/2 sachet de levure"
+    ],
+    "materiels": [
+      "Four traditionnel",
+      "Moule à manqué ou rond"
+    ],
+    "etapesPreparation": [
+      "Verser le mélange dans un moule beurré.",
+      "Faire cuire pendant 25 à 30 min à 180°C."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": null,
+    "source": "https://www.750g.com/gateau-sans-oeuf-a-la-banane-r3509.htm",
+    "site": "750g.com",
+    "optionType": "sansOeufs"
+  },
+  {
+    "_id": "Gâteau-sans-oeuf-au-chocolat-750g",
+    "nomRecette": "Gâteau sans oeuf au chocolat",
+    "imageRecette": "https://static.750g.com/images/640-420/ce2e931a9d969f799e4f6ad4eaf8b834/gateau-sans-oeuf-au-chocolat.jpg",
+    "note": "3.9/5",
+    "portion": "Non précisé",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "15min",
+    "tpsCuisson": "25min",
+    "tpsTotal": "40min",
+    "ingredients": [
+      "250g de beurre très mou",
+      "200g de sucre en poudre",
+      "200g de farine",
+      "15 cl de lait",
+      "100g de chocolat en poudre",
+      "1 pincée de sel"
+    ],
+    "materiels": [
+      "Four traditionnel",
+      "Moule à manqué ou rond",
+      "Robot mixeur"
+    ],
+    "etapesPreparation": [
+      "Dans le bol de votre mixer, mettre la farine, le sel, le sucre, le chocolat et mélanger.",
+      "Ajouter ensuite le beurre par petites quantités (en garder 25g pour graisser le moule). Bien mélanger.\nAjouter le lait et mélanger à nouveau pour obtenir une pâte bien lisse.",
+      "Mettre la préparation dans un moule à manqué (environ 25 cm de diamètre)préalablement beurré et cuire au four à 200°C.\n\nVérifier la cuisson en enfoncant la lame d'un couteau au centre du gâteau, si elle ressort sèche, c'est que le gâteau est cuit !"
+    ],
+    "conseil": "Dessert très facile, bon marché et délicieux.",
+    "typeRecette": null,
+    "source": "https://www.750g.com/gateau-sans-oeuf-au-chocolat-r89056.htm",
+    "site": "750g.com",
+    "optionType": "sansOeufs"
+  },
+  {
+    "_id": "Brioche-sans-oeufs-750g",
+    "nomRecette": "Brioche sans oeufs",
+    "imageRecette": "https://static.750g.com/images/640-420/08981d31c65de8b99373b4cfa5331dde/adobestock-64138799.jpeg",
+    "note": "4.5/5",
+    "portion": "6 personnes",
+    "difficulte": "Facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "25min",
+    "tpsCuisson": "25min",
+    "tpsTotal": "50min",
+    "ingredients": [
+      "375 g de farine de blé blanche (T55)",
+      "25 cl de lait demi-écrémé",
+      "70 g d'huile d'olive",
+      "45 g de sucre",
+      "7 g de levure de boulanger sèche",
+      "5 g de sel ou sel fin",
+      "30 g d'amandes effilées"
+    ],
+    "materiels": [
+      "Robot pâtissier",
+      "Four traditionnel",
+      "Torchon",
+      "Bol(s)"
+    ],
+    "etapesPreparation": [
+      "Versez le sel dans un grand bol, ajoutez la farine, le sucre et la levure sèche de boulanger.",
+      "Ajoutez l'huile d'olive, le lait.",
+      "Commencez à mélangez à la cuillère.",
+      "Quand le liquide est incorporé, versez le mélange sur un plan de travail légèrement fariné et pétrissez pendant 10 minutes.",
+      "Vous pouvez faire cette étape dans un robot pâtissier.",
+      "Remettez la pâte dans le bol, couvrez d’un torchon et laissez reposer pendant 1h30 dans un endroit tiède.",
+      "La pâte doit doubler de volume.",
+      "Versez la pâte sur votre plan de travail, dégazer-la en appuyant simplement dessus.",
+      "Détaillez en 3 morceaux et roulez-les en boudins.",
+      "Tressez les 3 boudins ensemble et déposez la tresse dans un moule à cake.",
+      "Laissez reposer recouvert d’un torchon pendant 30 minutes.",
+      "Préchauffez votre four à 180°C.",
+      "Badigeonnez la brioche avec un peu de lait, parsemez d’amandes effilées puis enfourner pour environ 25 minutes.",
+      "Démoulez sur une grille et laissez refroidir avant de déguster."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": null,
+    "source": "https://www.750g.com/brioche-sans-oeufs-r206417.htm",
+    "site": "750g.com",
+    "optionType": "sansOeufs"
+  },
+  {
+    "_id": "Cookies-sans-oeufs-aux-pépites-de-chocolat-750g",
+    "nomRecette": "Cookies sans oeufs aux pépites de chocolat",
+    "imageRecette": "https://static.750g.com/images/640-420/b7b13ad13a38d6099bb0d66666808424/adobestock-217807206.jpg",
+    "note": "4/5",
+    "portion": "12 biscuits",
+    "difficulte": "Facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "15min",
+    "tpsCuisson": "12min",
+    "tpsTotal": "27min",
+    "ingredients": [
+      "125 g de beurre mou",
+      "50 g de sucre",
+      "75 g de sucre de canne non raffiné (complet)",
+      "1 banane (petite)",
+      "175 g de farine",
+      "1 c. à c. rase(s) de levure chimique",
+      "3 pincées de sel ou sel fin",
+      "100 g de pépites de chocolat"
+    ],
+    "materiels": [
+      "Cuillère à glace",
+      "Four traditionnel",
+      "Plaque de cuisson pour four",
+      "Saladier"
+    ],
+    "etapesPreparation": [
+      "Dans un grand bol, fouettez le beurre et les sucres afin d’avoir une texture crémeuse.",
+      "Ajoutez la banane écrasée et fouettez.",
+      "Ajoutez la farine, la levure, le sel, les pépites de chocolat et mélangez juste assez pour obtenir une pâte souple.",
+      "A l’aide d’une cuillère à glace ou d’une grande cuillère, prélevez des boules de pâte, un peu plus petites que des boules de glace, et déposez-les sur une plaque de cuisson en les espaçant car la pâte va un peu s’étaler. Ne surtout pas aplatir les boules.",
+      "Il faudra procéder en deux fois si vous n’avez qu’une plaque.",
+      "Laissez reposer au frais pendant 30 minutes.",
+      "Préchauffez votre four à 165 °C.",
+      "Enfournez les cookies pour 10 à 12 minutes. Ils doivent être blonds avec un bord doré et leur texture est encore très souple.",
+      "Retirez-les délicatement de la plaque à l’aide d’une spatule et laissez refroidir sur une grille."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": null,
+    "source": "https://www.750g.com/cookies-sans-oeufs-aux-pepites-de-chocolat-r206418.htm",
+    "site": "750g.com",
+    "optionType": "sansOeufs"
+  },
+  {
+    "_id": "Gaufres-sans-oeufs-750g",
+    "nomRecette": "Gaufres sans oeufs",
+    "imageRecette": "https://static.750g.com/images/640-420/d025a256009a8c6aa37547439f2960cb/adobestock-71957040.jpeg",
+    "note": "5/5",
+    "portion": "8 pièces",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "10min",
+    "tpsCuisson": "3min",
+    "tpsTotal": "13min",
+    "ingredients": [
+      "200 g de farine",
+      "50 g de sucre de canne non raffiné (complet)",
+      "20 cl d'eau gazeuse",
+      "5 cl de lait d'amande",
+      "2 c. à s. d'huile végétale",
+      "2 c. à c. de levure chimique",
+      "3 pincées de sel ou sel fin",
+      "Sucre glace"
+    ],
+    "materiels": [
+      "Gaufrier",
+      "Bol(s)"
+    ],
+    "etapesPreparation": [
+      "Versez la farine dans un grand bol avec le sel, le sucre et la levure chimique.",
+      "Mélangez puis ajoutez le lait et l’huile.",
+      "Ajoutez l’eau gazeuse petit à petit, tout en fouettant, jusqu’à ce que la pâte soit bien lisse.",
+      "Laissez reposer 30 minutes au frais.",
+      "Faites cuire vos gaufres dans votre gaufrier préchauffé pendant 3 minutes environ.",
+      "Servez avec du sucre glace."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": null,
+    "source": "https://www.750g.com/gaufres-sans-oeufs-r206416.htm",
+    "site": "750g.com",
+    "optionType": "sansOeufs"
+  },
+  {
+    "_id": "Cake-au-thon-sans-œuf-750g",
+    "nomRecette": "Cake au thon sans œuf",
+    "imageRecette": "https://static.750g.com/images/640-420/4646420b9b7cc81404e5940da30dc250/cake-sale-sans-oeuf.png",
+    "note": "4.1/5",
+    "portion": "6 personnes",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "10min",
+    "tpsCuisson": "40min",
+    "tpsTotal": "50min",
+    "ingredients": [
+      "Thon",
+      "150 g de farine",
+      "15 cl de lait",
+      "8 cl d'huile de tournesol",
+      "6 c. à s. d'eau",
+      "3 c. à s. de fécule de maïs",
+      "1 sachet de levure",
+      "Sel ou sel fin",
+      "Poivre",
+      "Noix de muscade"
+    ],
+    "materiels": [
+      "Four traditionnel",
+      "Moule à cake",
+      "Moule à muffins ou à cupcakes"
+    ],
+    "etapesPreparation": [
+      "Mélanger la levure, la farine, l'assaisonnement, l'huile, la maïzena délayée, le lait et éventuellement la garniture de votre choix (thon, jambon, légumes...).",
+      "Cuire 40 minutes dans un moule à cake, beurré et fariné ou des moules à muffins avec four th 180°C (th 6).\n\nBon appétit !"
+    ],
+    "conseil": "Mettre dans des moules individuels pour que ça tienne bien (car il n'y pas d’œuf).",
+    "typeRecette": null,
+    "source": "https://www.750g.com/cake-sale-sans-oeuf-r46615.htm",
+    "site": "750g.com",
+    "optionType": "sansOeufs"
+  },
+  {
+    "_id": "Tarte-aux-courgettes-et-au-chèvre-sans-oeufs-750g",
+    "nomRecette": "Tarte aux courgettes et au chèvre sans oeufs",
+    "imageRecette": "https://static.750g.com/images/640-420/853a0e82c8e2c9702714616225689aab/tarte-aux-courgettes-et-au-chevre-sans-oeufs.png",
+    "note": "4.1/5",
+    "portion": "4 personnes",
+    "difficulte": "Très facile",
+    "budget": "Budget moyen",
+    "tpsPreparation": "20min",
+    "tpsCuisson": "30min",
+    "tpsTotal": "50min",
+    "ingredients": [
+      "Pâte feuilletée",
+      "2 courgettes",
+      "200 g de fromage de chèvre frais",
+      "1 oignon",
+      "1 gousse d'ail",
+      "2 c. à s. de crème fraîche",
+      "1 c. à s. de lait",
+      "1 c. à c. de moutarde forte",
+      "1 c. à c. de curcuma ou Curry",
+      "Herbes de Provence",
+      "Sel ou sel fin",
+      "Poivre"
+    ],
+    "materiels": [
+      "Four traditionnel",
+      "Moule à tarte",
+      "Saladier"
+    ],
+    "etapesPreparation": [
+      "Commencez tout d'abord par pré-cuire votre pâte feuilletée à blanc à 180°C pendant 10 à 15 min. Coupez votre oignon en fines lamelles et faites le revenir dans une poêle avec une noisette de beurre. Lorsque l'oignon commence à devenir transparant ajoutez les courgettes coupées en dès, vous n'avez pas besoin de les éplucher. Couvrez et laissez cuire à feu doux pendant 20 min tout en remuant de temps en temps.",
+      "Pendant ce temps dans un saladier mélangez le fromage de chèvre, la crème fraîche, la moutarde, le lait, le curcuma (ou le curry) et les herbes de provence. Ajoutez le sel et le poivre. Lorsque les courgettes sont bien dorées mélangez les à la préparation précédente et versez le tout dans le fond de tarte. Mettez au four et laissez cuire pendant 30 à 45 min à 180°C."
+    ],
+    "conseil": "Vous pouvez très bien remplacer les courgettes par des poireaux, c'est tout aussi bon. Lorsque vous faites cuire la pâte à blanc si vous n'avez pas d'haricots blanc à mettre au fond vous pouvez mettre du riz en faisant bien attention à ne pas oublier de mettre du papier sulfurisé sur la pâte avant de mettre vos haricots.",
+    "typeRecette": null,
+    "source": "https://www.750g.com/tarte-aux-courgettes-et-au-chevre-sans-oeufs-r70081.htm",
+    "site": "750g.com",
+    "optionType": "sansOeufs"
+  },
+  {
+    "_id": "Beignets-sucrés-ou-salés-sans-oeuf-750g",
+    "nomRecette": "Beignets sucrés ou salés sans oeuf",
+    "imageRecette": "https://static.750g.com/images/640-420/05880cc05ea53f54666d1851e3d12f94/beignets-sucres-ou-sales-sans-oeuf.jpg",
+    "note": "5/5",
+    "portion": "Non précisé",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "20min",
+    "tpsCuisson": "30min",
+    "tpsTotal": "50min",
+    "ingredients": [
+      "Nature ou avec 4 ou 5 pommes pour le sucré",
+      "Jambon râpé / gruyère râpé ou autre /sel poivre pour le salé",
+      "200g de sucre pour le sucré",
+      "1 c à c de bicarbonate",
+      "30 cl de lait pour le sucré",
+      "30 cl d'eau pour le salé",
+      "500g de farine"
+    ],
+    "materiels": [],
+    "etapesPreparation": [
+      "Mettre la farine dans un saladier, ajouter le bicarbonate, le sucre pour le sucré, mélanger. Ajouter le lait ou l'eau . Mettre les pommes ou le gruyère râpé ainsi que le jambon sel et poivre.",
+      "Faire frire en déposant une noix de pate avec une cuillère a soupe."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": null,
+    "source": "https://www.750g.com/beignets-sucres-ou-sales-sans-oeuf-r98101.htm",
+    "site": "750g.com",
+    "optionType": "sansOeufs"
+  },
+  {
+    "_id": "Gâteau-aux-pommes-sans-oeufs-sans-beurre-750g",
+    "nomRecette": "Gâteau aux pommes sans oeufs sans beurre",
+    "imageRecette": "https://static.750g.com/images/640-420/0e84d5683f7d7e1d15352976d874c161/gateau-aux-pommes-sans-oeufs-sans-beurre.jpg",
+    "note": "3.7/5",
+    "portion": "Non précisé",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "5min",
+    "tpsCuisson": "30min",
+    "tpsTotal": "35min",
+    "ingredients": [
+      "2 mugs de farine",
+      "la valeur en dosage d ' un mug de sucre de canne en poudre",
+      "1 pomme découpée en dés",
+      "1 verre de lait",
+      "1 sachet de levure chimique",
+      "un peu de cannelle"
+    ],
+    "materiels": [
+      "Four traditionnel",
+      "Moule à manqué ou rond"
+    ],
+    "etapesPreparation": [],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": null,
+    "source": "https://www.750g.com/gateau-aux-pommes-sans-oeufs-sans-beurre-r19646.htm",
+    "site": "750g.com",
+    "optionType": "sansOeufs"
+  },
+  {
+    "_id": "Gâteau-au-chocolat-sans-œuf-maison-750g",
+    "nomRecette": "Gâteau au chocolat sans œuf maison",
+    "imageRecette": "https://static.750g.com/images/640-420/c557ca03bef7bbae659c9e3bffe7c251/gateau-au-chocolat-sans-oeuf-maison.jpg",
+    "note": "3.8/5",
+    "portion": "4 personnes",
+    "difficulte": "Facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "10min",
+    "tpsCuisson": "40min",
+    "tpsTotal": "50min",
+    "ingredients": [
+      "150 g de farine",
+      "100 g de cacao",
+      "100 g de beurre",
+      "50 g de sucre",
+      "30 cl de lait",
+      "1 sachet de levure chimique"
+    ],
+    "materiels": [
+      "Fouet",
+      "Four traditionnel",
+      "Moule à manqué ou rond",
+      "Saladier"
+    ],
+    "etapesPreparation": [
+      "Préchauffez le four à 180°C.",
+      "Dans un saladier, déposez le beurre mou et mélangez avec un fouet pour le détendre. Ajoutez le sucre et mélangez.",
+      "Ajoutez la farine, la levure chimique et le cacao en poudre. Mélangez et terminez en ajoutant le lait jusqu'à obtenir une pâte bien homogène.",
+      "Versez dans un moule beurré et fariné. Enfournez pour 20 minutes de cuisson, à 180°C. Vérifiez la cuisson avec la lame d'un couteau."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": null,
+    "source": "https://www.750g.com/gateau-au-chocolat-sans-oeuf-r94985.htm",
+    "site": "750g.com",
+    "optionType": "sansOeufs"
+  },
+  {
+    "_id": "Fondant-au-chocolat-sans-oeuf-750g",
+    "nomRecette": "Fondant au chocolat sans oeuf",
+    "imageRecette": "https://static.750g.com/images/640-420/dec8f7c2451b899a5b719e21cf23cd93/photo-le-04-10-2016-a-17.39.jpg",
+    "note": "3.6/5",
+    "portion": "6 personnes",
+    "difficulte": "Facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "40min",
+    "tpsCuisson": "Sans cuisson",
+    "tpsTotal": "40min",
+    "ingredients": [
+      "200 g de chocolat noir",
+      "15 cl de lait",
+      "150 g de farine",
+      "180 g de sucre",
+      "1 pincée de sel ou sel fin",
+      "150 g de beurre"
+    ],
+    "materiels": [
+      "Bain-marie",
+      "Four traditionnel"
+    ],
+    "etapesPreparation": [
+      "Faire fondre le chocolat avec le beurre et la pincée de sel au bain marie.",
+      "Ajouter le sucre puis la farine et le lait.",
+      "Verser cette préparation dans un moule et enfourner 40 min à 180°C."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": null,
+    "source": "https://www.750g.com/fondant-au-chocolat-sans-oeuf-r93146.htm",
+    "site": "750g.com",
+    "optionType": "sansOeufs"
+  },
+  {
+    "_id": "Galettes-de-pois-chiches-sans-oeufs-750g",
+    "nomRecette": "Galettes de pois chiches sans oeufs",
+    "imageRecette": "https://static.750g.com/images/640-420/2608f9795a9a83649a3a86ab47d925a3/galettes-pois-chiches-img-5316.jpg",
+    "note": "4.3/5",
+    "portion": "Non précisé",
+    "difficulte": "Facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "15min",
+    "tpsCuisson": "10min",
+    "tpsTotal": "25min",
+    "ingredients": [
+      "250 g de pois-chiches en conserve égouttés",
+      "1 oignon",
+      "2 gousses d'ail",
+      "1 cuil. à café de cumin",
+      "3 cuil. à soupe de persil plat ciselé",
+      "1 cuil. à soupe de paprika",
+      "5 cl de crème de soja",
+      "3 cuil. à soupe de Maïzena",
+      "4 cuil. à soupe d'huile d'olive",
+      "Sel",
+      "Poivre",
+      "1 sachet de mâche",
+      "1 citron vert"
+    ],
+    "materiels": [
+      "Couteau d'office",
+      "Planche à découper",
+      "Poêle",
+      "Robot mixeur",
+      "Saladier en verre"
+    ],
+    "etapesPreparation": [
+      "Pelez puis émincez finement l'oignon. Faites-le revenir avec l'ail 1 minute à la poêle avec un filet d'huile d'olive.\nDans un mixez, hachez les pois-chiches avec la crème de soja en gardant une texture granuleuse.",
+      "Mettez les pois-chiches dans un saladier, ajoutez le mélange oignon/ail, le cumin, le paprika, le persil ciselé, le sel, le poivre et la maïzena. Mélangez puis façonnez des galettes.\nFaites chauffer de l'huile d'olive dans une poêle, faites-y dorer les galettes des deux côtés.\nServez avec une salade et du citron vert."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": null,
+    "source": "https://www.750g.com/galettes-de-pois-chiches-sans-oeufs-r205136.htm",
+    "site": "750g.com",
+    "optionType": "sansOeufs"
+  },
+  {
+    "_id": "Tiramisu-sans-oeufs-à-la-framboise-750g",
+    "nomRecette": "Tiramisu sans oeufs à la framboise",
+    "imageRecette": "https://static.750g.com/images/640-420/368d91ad8226ea228232da3b489760bc/dessert-cremeux-aux-framboises-et-a-la-mascarpone.jpg",
+    "note": "5/5",
+    "portion": "4 personnes",
+    "difficulte": "Facile",
+    "budget": "Budget moyen",
+    "tpsPreparation": "30min",
+    "tpsCuisson": "2h",
+    "tpsTotal": "30min",
+    "ingredients": [
+      "200 g de mascarpone",
+      "10 cl de crème liquide",
+      "2 c. à s. de sucre glace",
+      "20 cl de coulis de framboise",
+      "250 g de framboises",
+      "8 sablés anglais"
+    ],
+    "materiels": [
+      "Fouet",
+      "Bocal(caux)",
+      "Saladier en inox"
+    ],
+    "etapesPreparation": [
+      "Dans un saladier, versez la crème liquide, le mascarpone et le sucre glace.\nFouettez l'ensemble jusqu'à ce qu'à obtention d'une texture ferme.",
+      "Ecrasez finement les sablés anglais.\nRépartissez les sablés dans 4 bocaux en verre et déposez quelques framboises par-dessus puis versez un peu de coulis de framboises sur l'ensemble et couvrez le tout de crème au mascarpone.",
+      "Répartissez une autre couche de framboises puis du coulis et recouvrez de crème mascarpone.",
+      "Finissez le montage du dessert avec des framboises.",
+      "Mettez au frais pendant 2 heures.",
+      "Dégustez."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": null,
+    "source": "https://www.750g.com/tiramisu-sans-oeufs-a-la-framboise-r205561.htm",
+    "site": "750g.com",
+    "optionType": "sansOeufs"
+  },
+  {
+    "_id": "Gâteau-sans-oeuf-à-la-pomme-750g",
+    "nomRecette": "Gâteau sans oeuf à la pomme",
+    "imageRecette": "https://static.750g.com/images/640-420/2df3b5e48ec37039e89dcf9eba6f42ea/gateau-sans-oeuf-a-la-pomme.jpg",
+    "note": "3.8/5",
+    "portion": "8 personnes",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "10min",
+    "tpsCuisson": "25min",
+    "tpsTotal": "35min",
+    "ingredients": [
+      "600 g de compote de pommes ou 600g de compote de pommes",
+      "100 ml d'huile de tournesol",
+      "2 tasses de farine",
+      "1 tasse de sucre",
+      "2 sachets de sucre vanillé",
+      "0,5 sachet de levure"
+    ],
+    "materiels": [
+      "Fouet",
+      "Four traditionnel",
+      "Moule à manqué ou rond",
+      "Saladier"
+    ],
+    "etapesPreparation": [
+      "Mélanger tous les ingrédients ensemble (la compote en dernier).",
+      "Beurrer un moule et mettre 25 à 30 minutes au four à 180°C."
+    ],
+    "conseil": "Avec une touche de chantilly dans votre assiette, c'est encore meilleur !",
+    "typeRecette": null,
+    "source": "https://www.750g.com/gateau-sans-oeuf-a-la-pomme-r18972.htm",
+    "site": "750g.com",
+    "optionType": "sansOeufs"
+  },
+  {
+    "_id": "Tartelettes-au-citron-sans-oeuf-750g",
+    "nomRecette": "Tartelettes au citron sans oeuf",
+    "imageRecette": "https://static.750g.com/images/640-420/9f927c481652b77b384c3bf86edd57a5/tartelettes-au-citron-sans-oeuf.jpeg",
+    "note": "4.1/5",
+    "portion": "Non précisé",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "30min",
+    "tpsCuisson": "30min",
+    "tpsTotal": "1h",
+    "ingredients": [
+      "1 pâte sablée sans œuf",
+      "120g de beurre",
+      "120g de sucre roux",
+      "80g de maïzena",
+      "12 cl de lait",
+      "8 cl de jus de citron (environ 2 citrons)"
+    ],
+    "materiels": [
+      "Casserole",
+      "Film alimentaire",
+      "Fouet",
+      "Four traditionnel",
+      "Moule à tarte",
+      "Pinceau",
+      "Bol(s)"
+    ],
+    "etapesPreparation": [
+      "Préchauffez le four à 180°C. Farinez votre plan de travail ainsi que votre pâte sablée puis étalez-là. Découpez des petits ronds plus grands que la dimension de vos moules à tarte. Ajoutez dans vos moules et piquez vos fonds de tartelettes. Cuire à blanc vos tartelettes pendant 10 minutes. Retirez vos petites billes puis laissez cuire encore environ 20 à 25 minutes. Sortez vos tartelettes du four puis laissez-les refroidir et ensuite mettez-les au frigo.",
+      "Pressez vos citrons. Ajoutez votre beurre dans une casserole puis laissez fondre totalement votre beurre. Versez ensuite dans le beurre le sucre roux et le jus de citron. Mélangez bien avec un fouet.",
+      "Retirez votre casserole du feu puis ajoutez dedans la maïzena en un coup. Remuez aussitôt pour qu'il n'y ait pas de grumeaux. Remettez sur le feu puis fouettez le tout pendant 2 minutes.",
+      "Pour finir versez le lait en un coup et remuez aussitôt. Fouettez bien le mélange pendant environ 5 minutes. Jusqu'à ce que vous arriviez à la bonne consistance de la crème.",
+      "Versez votre crème au citron dans un bol puis mettez dessus un film alimentaire. Mettez au frigo pendant au moins 1h.",
+      "",
+      "Une fois que la crème a refroidi, sortez-là du frigo ainsi que les tartelettes. Garnissez les tartelettes de la crème au citron. Puis à l'aide d'un pinceau badigeonnez-les de sirop de sucre de canne.",
+      "Facultatif :\nPour la décoration: lavez un citron non traité et coupez des fines rondelles de citron. Disposez chaque rondelle de citron sur chaque tartelette et badigeonnez-les de sirop de sure de canne.",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": null,
+    "source": "https://www.750g.com/tartelettes-au-citron-sans-oeuf-r88572.htm",
+    "site": "750g.com",
+    "optionType": "sansOeufs"
+  },
+  {
+    "_id": "Gâteau-au-chocolat-en-poudre-sans-oeuf-750g",
+    "nomRecette": "Gâteau au chocolat en poudre sans oeuf",
+    "imageRecette": "https://static.750g.com/images/640-420/91452ac4229bb1f47c208d14b8e1ce24/gateau-au-chocolat-en-poudre-sans-oeuf.png",
+    "note": "4.1/5",
+    "portion": "8 personnes",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "15min",
+    "tpsCuisson": "20min",
+    "tpsTotal": "35min",
+    "ingredients": [
+      "200 g de chocolat en poudre",
+      "200 g de farine",
+      "100 g de beurre",
+      "50 g de sucre en poudre ou sucre semoule",
+      "30 cl de lait",
+      "1 sachet de levure"
+    ],
+    "materiels": [
+      "Four traditionnel",
+      "Moule à manqué ou rond"
+    ],
+    "etapesPreparation": [
+      "Préchauffez votre four à 200°C.",
+      "Beurrez et farinez votre moule.",
+      "Mélangez tous les ingrédients dans un récipient en plastique.",
+      "Mettez la pâte dans le moule et mettez au four 20 min."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": null,
+    "source": "https://www.750g.com/gateau-au-chocolat-en-poudre-sans-oeuf-r71124.htm",
+    "site": "750g.com",
+    "optionType": "sansOeufs"
+  }
+]

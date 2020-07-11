@@ -1,0 +1,386 @@
+[
+  {
+    "_id": "Génoise-au-chocolat-750g",
+    "nomRecette": "Génoise au chocolat",
+    "imageRecette": null,
+    "note": "4/5",
+    "portion": "6 personnes",
+    "difficulte": "Facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "10min",
+    "tpsCuisson": "25min",
+    "tpsTotal": "35min",
+    "ingredients": [
+      "100 g de sucre en poudre ou sucre semoule",
+      "4 oeufs",
+      "25 g de cacao amer ou poudre de cacao non sucrée",
+      "15 g de fécule de maïs",
+      "15 g de farine"
+    ],
+    "materiels": [
+      "Fouet",
+      "Four traditionnel",
+      "Bol(s)"
+    ],
+    "etapesPreparation": [
+      "Dans un bol, cassez les œufs et mettez-y le sucre, et fouettez afin de blanchir les œufs, et d'obtenir une mousse.",
+      "Dans cette mousse, ajoutez la fécule de maïs, la farine et mélangez le tout sans faire retomber la mousse.",
+      "Beurrez, farinez le cercle et déposez-y la pâte au centre.",
+      "Mettez votre génoise à cuire au four à 170°C pendant 20 à 25 minutes."
+    ],
+    "conseil": "Pour les gourmands, n'hésitez pas à rajouter du beurre !",
+    "typeRecette": "dessert",
+    "source": "https://www.750g.com/genoise-au-chocolat-r96855.htm",
+    "site": "750g.com",
+    "optionType": "gateaux"
+  },
+  {
+    "_id": "Gâteau-sans-œufs-750g",
+    "nomRecette": "Gâteau sans œufs",
+    "imageRecette": null,
+    "note": "4.2/5",
+    "portion": "Non précisé",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "20min",
+    "tpsCuisson": "30min",
+    "tpsTotal": "50min",
+    "ingredients": [
+      "2 yaourts nature",
+      "3 pots à yaourt de farine",
+      "1 pot à yaourt de sucre",
+      "½ pot d'huile végétale",
+      "1 sachet de levure chimique",
+      "1 sachet de sucre vanillé",
+      "20g d'amandes effilées",
+      "1 pincée de sel"
+    ],
+    "materiels": [
+      "Fouet",
+      "Four traditionnel",
+      "Moule à cake",
+      "Saladier"
+    ],
+    "etapesPreparation": [
+      "Préchauffez le four à 180°C ou Th.6.\nDans un saladier, versez 2 yaourts nature, le sucre vanillé et 1 pot à yaourt de sucre.",
+      "Mélangez l'ensemble au fouet.",
+      "Ajoutez 1/2 pot à yaourt d'huile et mélangez.",
+      "Ajoutez 3 pots à yaourt de farine et la levure.",
+      "Mélangez de nouveau pour obtenir une préparation lisse et homogène.",
+      "Beurrez et farinez un moule. Versez-y la pâte",
+      "Saupoudrez le dessus de la pâte avec des amandes effilées.",
+      "Enfournez 30 à 35 minutes à 180°C.\nVérifiez la cuisson en plantant la pointe dâ??un couteau au centre du gâteau."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "dessert",
+    "source": "https://www.750g.com/gateau-sans-oeufs-r99701.htm",
+    "site": "750g.com",
+    "optionType": "gateaux"
+  },
+  {
+    "_id": "Gâteau-à-la-banane-et-au-chocolat-750g",
+    "nomRecette": "Gâteau à la banane et au chocolat",
+    "imageRecette": "https://static.750g.com/images/640-420/5dcdc4472310de5414ed27a6cc0e96a4/gateau-a-la-banane-et-au-chocolat.png",
+    "note": "4.4/5",
+    "portion": "5 personnes",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "25min",
+    "tpsCuisson": "30min",
+    "tpsTotal": "55min",
+    "ingredients": [
+      "3 bananes",
+      "200 g de farine",
+      "15 cl de crème fraîche légère",
+      "3 oeufs",
+      "100 g de sucre",
+      "0,5 tablette de chocolat noir pâtissier",
+      "40 g de beurre demi-sel",
+      "1 sachet de sucre vanillé",
+      "1 sachet de levure"
+    ],
+    "materiels": [
+      "Four traditionnel",
+      "Moule à tarte",
+      "Saladier"
+    ],
+    "etapesPreparation": [],
+    "conseil": "Vous pouvea ajouter des noix pour le croquant et remplacer le chocolat fondu par des pépites de chocolat. Lorsque le gâteau est cuit, vous pouvez ajouter des rondelles de banane pour la décoration !\n\n\n",
+    "typeRecette": "dessert",
+    "source": "https://www.750g.com/gateau-a-la-banane-et-au-chocolat-r52133.htm",
+    "site": "750g.com",
+    "optionType": "gateaux"
+  },
+  {
+    "_id": "Gâteau-aux-pommes-750g",
+    "nomRecette": "Gâteau aux pommes",
+    "imageRecette": "https://static.750g.com/images/640-420/5ac0989526cb6d2b13d8ffe39072c3dc/gateau-aux-pommes.jpg",
+    "note": "4.4/5",
+    "portion": "Non précisé",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "10min",
+    "tpsCuisson": "40min",
+    "tpsTotal": "50min",
+    "ingredients": [
+      "1 sachet de levure",
+      "6 belles pommes à cuire",
+      "2 œuf",
+      "4 c à s d'huile",
+      "8 c à s de sucre",
+      "6 c à s de lait",
+      "10 c à s farine",
+      "1 sachet de sucre vanillé",
+      "1 œuf",
+      "80g de sucre (= 4 c à s)",
+      "60g de beurre (= 4 c à s)"
+    ],
+    "materiels": [
+      "Four traditionnel"
+    ],
+    "etapesPreparation": [
+      "Préchauffer de four à 150°C ou Th.5, pas plus.",
+      "Mélanger tous les ingrédients \"gâteau\" dans l'ordre et verser la pâte dans un moule à manqué (24cm)beurré. Disposer les pommes en quartiers dessus. Enfourner 25 min.",
+      "Pendant ce temps préparer la sauce en faisant fondre doucement le beurre, retirer la casserole du feu et mélanger avec le sucre et l'oeuf faire couler ce mélange sur les pommes et remettre au four 15 minutes."
+    ],
+    "conseil": "Une fois la cuisson finie, sortir le moule et mettre un linge par dessus pour bien garder l'humidité et le demouler quand il est tiéde. Régalez vous c'est un délice ! Astuces de Chef Damien : Essayez cette recette avec une pointe de cannelle dans le gâteau. Avec une belle gousse de vanille, c'est vraiment très bon ! Remplacez le sucre par du sucre cassonnade...",
+    "typeRecette": "dessert",
+    "source": "https://www.750g.com/gateau-aux-pommes-r5119.htm",
+    "site": "750g.com",
+    "optionType": "gateaux"
+  },
+  {
+    "_id": "Gâteau-au-chocolat-inratable-750g",
+    "nomRecette": "Gâteau au chocolat inratable",
+    "imageRecette": "https://static.750g.com/images/640-420/b9ce7a6fe51f3984629a34c0c4540b2a/gateau-au-chocolat-inratable.jpg",
+    "note": "4.3/5",
+    "portion": "4 personnes",
+    "difficulte": "Facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "25min",
+    "tpsCuisson": "20min",
+    "tpsTotal": "45min",
+    "ingredients": [
+      "250 g de chocolat",
+      "100 g de farine",
+      "4 oeufs",
+      "125 g de beurre",
+      "125 g de sucre",
+      "Pincée de sel ou sel fin"
+    ],
+    "materiels": [
+      "Casserole",
+      "Four traditionnel",
+      "Saladier"
+    ],
+    "etapesPreparation": [
+      "Dans une casserole, cassez le chocolat en morceaux et ajoutez-y le beurre coupé en morceaux également.",
+      "Faites fondre l'ensemble sur feu doux tout en remuant.",
+      "Dans un saladier, cassez les oeufs entiers. Ajoutez le sucre et mélangez au fouet jusqu'à obtenir un mélange bien homogène.",
+      "Ajoutez à ce mélange, le chocolat et le beurre fondu. Remuez pour obtenir une préparation bien lisse.",
+      "Terminez en ajoutant la farine progressivement, tout en remuant.",
+      "Pour accentuer le goût du chocolat, ajoutez une pincée de sel au gâteau et mélangez.",
+      "Beurrez et farinez un moule à gâteau et versez-y la préparation.",
+      "Dans un four préchauffé à 180°C, enfournez pour 25 à 30 min de cuisson. Vérifiez la cuisson du gâteau en plantant la lame d'un couteau au centre. Le gâteau est cuit quand la lame ressort presque sèche, sinon poursuivez la cuisson quelques minutes supplémentaires."
+    ],
+    "conseil": "Simple à mémoriser, une quantité de chocolat, la moitié pour le beurre et la moitié pour le sucre !",
+    "typeRecette": "dessert",
+    "source": "https://www.750g.com/gateau-au-chocolat-r68078.htm",
+    "site": "750g.com",
+    "optionType": "gateaux"
+  },
+  {
+    "_id": "Rainbow-Cake-classique-750g",
+    "nomRecette": "Rainbow Cake classique",
+    "imageRecette": "https://static.750g.com/images/640-420/d3f553e28e406e89ab0b50ba79be6f2f/rainbow-cake-classique.jpeg",
+    "note": "4.2/5",
+    "portion": "Non précisé",
+    "difficulte": "Facile",
+    "budget": "Budget moyen",
+    "tpsPreparation": "40min",
+    "tpsCuisson": "10min",
+    "tpsTotal": "50min",
+    "ingredients": [
+      "400g de farine",
+      "400g de sucre",
+      "5 œufs",
+      "320g de lait",
+      "200g de beurre",
+      "1 c à c de levure chimique",
+      "Colorants : violet, bleu, vert, jaune et rouge",
+      "6 œufs",
+      "200g de chocolat blanc",
+      "200g de chocolat blanc",
+      "20 cl de crème liquide"
+    ],
+    "materiels": [
+      "Batteur à main électrique",
+      "Four traditionnel"
+    ],
+    "etapesPreparation": [
+      "Commencer par préparer la mousse au chocolat. Séparer les blancs des jaunes. Fouetter les jaunes avec le chocolat fondu au bain marie.",
+      "Monter les blancs en neige très ferme avec une pincée de sel. Les incorporer délicatement au mélange jaunes-chocolat. Mettre au frais pour minimum 3 heures. Pendant ce temps, préparer les génoises.",
+      "Préchauffer le four à 180°C. Fouetter les œufs et le sucre au batteur électrique pendant une dizaine de minutes pour que le mélange double de volume. Mélanger ensemble la farine et la levure ainsi que le lait et le beurre fondu.",
+      "Ajouter progressivement les ingrédients secs à la préparation oeufs-sucre, en alternant avec les ingrédients liquides.",
+      "Séparer la pâte en 5, soit 300g par bol de pâte et ajouter une pointe de couteau de colorant pour chacun.",
+      "Beurrer un moule de 20 cm de diamètre (ou plusieurs si vous en avez plusieurs) et verser le premier bol de pâte. Enfourner pour 10 min.",
+      "A la sortie du four, attendre 5 min avant de démouler la génoise. Laisser refroidir le moule avant de le re beurrer et de ré enfourner la deuxième génoise pour 10min. Et ainsi de suite. En attendant que les génoises soient toutes cuites, les entreposer les unes sur les autres en les séparant par du papier cuisson.",
+      "Quand la mousse au chocolat est bien prise et les génoises complètement refroidies, procéder au montage du gâteau.",
+      "Disposer la génoise violette sur le plat de service, tartiner de mousse au chocolat. Poser ensuite la génoise bleue et on recommence ! Finir avec la génoise rouge.",
+      "Préparer la ganache :\nFaire bouillir la crème et ajouter hors du feu le chocolat en morceaux. Mélanger à la cuillère en bois jusqu'à ce que le chocolat soit bien fondu et la préparation lisse et homogène. Recouvrir le gâteau de ce mélange et bien lisser les bords.",
+      "Décorer le gâteau avec des bonbons et biscuits (smarties, fingers, mikados...) et entreposer au frais pour que la ganache prenne."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "dessert",
+    "source": "https://www.750g.com/rainbow-cake-r87442.htm",
+    "site": "750g.com",
+    "optionType": "gateaux"
+  },
+  {
+    "_id": "Gâteau-renversé-des-îles-750g",
+    "nomRecette": "Gâteau renversé des îles",
+    "imageRecette": "https://static.750g.com/images/640-420/ebcfc87aef2fb65178fa3034d2dcc8fb/gateau-renverse-des-iles.png",
+    "note": "4.2/5",
+    "portion": "Non précisé",
+    "difficulte": "Facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "20min",
+    "tpsCuisson": "30min",
+    "tpsTotal": "50min",
+    "ingredients": [
+      "1 grosse boite d'ananas",
+      "3c à s de noix de coco",
+      "1/2 sachet de levure chimique",
+      "200g de sucre",
+      "120g de farine",
+      "3 œufs",
+      "3 c à s de rhum (facultatif)",
+      "125g de beurre",
+      "Sel"
+    ],
+    "materiels": [
+      "Four traditionnel",
+      "Moule à manqué ou rond"
+    ],
+    "etapesPreparation": [
+      "Egoutter les rondelles d'ananas et réserver le jus. Préparer un caramel avec 100g de sucre et 2 c à s d'eau. Napper le fond du moule à manqué, et recouvrir de rondelles d'ananas, couper le reste en morceaux.",
+      "Travailler à la spatule le beurre ramolli avec le reste de sucre, 1 pincée de sel, et les jaunes d'oeufs. Ajouter la farine et la levure, la noix de coco et les morceaux d'ananas et 2 c à s de rhum.",
+      "Incorporer les blancs d'oeufs battus en neige. Répartir la pâte dans le moule sur les tranches d'ananas.",
+      "Dans le four préchauffé à 200°C, cuire 25 à 30 minutes à 180°C. Vérifier la cuisson en piquant avec la lame d'un couteau. Sortir et attendre 3 minutes et démouler le gâteau. Mélanger du jus d'ananas et 1 c à s de rhum et imbiber le gâteau chaud. Servir froid."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "dessert",
+    "source": "https://www.750g.com/gateau-renverse-des-iles-r32357.htm",
+    "site": "750g.com",
+    "optionType": "gateaux"
+  },
+  {
+    "_id": "Gâteau-tout-chocolat-750g",
+    "nomRecette": "Gâteau tout chocolat",
+    "imageRecette": "https://static.750g.com/images/640-420/686d987e7f02460e1bae6c2bca483ecb/gateau-tout-chocolat.png",
+    "note": "4.2/5",
+    "portion": "6 personnes",
+    "difficulte": "Facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "10min",
+    "tpsCuisson": "25min",
+    "tpsTotal": "35min",
+    "ingredients": [
+      "6 oeufs",
+      "200 g de sucre",
+      "200 g de chocolat noir pâtissier",
+      "180 g de beurre",
+      "100 g de farine",
+      "1 paquet de levure chimique"
+    ],
+    "materiels": [
+      "Casserole",
+      "Four traditionnel",
+      "Moule à manqué ou rond",
+      "Saladier"
+    ],
+    "etapesPreparation": [
+      "Préchauffez votre four th.6 (180°C).",
+      "Faites fondre le chocolat au bain marie.Ajoutez le beurre et mélangez bien.",
+      "Dans un saladier, mélangez les oeufs et le sucre, puis la farine et le paquet de levure chimqiue.Versez le chocolat fondu puis mélangez jusqu'a obtention d'une pâte homogène.",
+      "Versez dans le moule de votre choix beurré et fariné.",
+      "Enfournez et cuisez environ 25 minutes environ.",
+      "Dégustez tiède !"
+    ],
+    "conseil": "Conseils de Chef Damien : Ajustez le temps de cuisson (25 minutes) pour avoir un coeur plus ou moins fondant selon votre goût. A servir éventuellement avec une crème anglaise et une boule de glace vanille.",
+    "typeRecette": "dessert",
+    "source": "https://www.750g.com/gateau-tout-chocolat-r1843.htm",
+    "site": "750g.com",
+    "optionType": "gateaux"
+  },
+  {
+    "_id": "Gâteau-au-yaourt-bon-marché-et-vite-fait-750g",
+    "nomRecette": "Gâteau au yaourt bon marché et vite fait",
+    "imageRecette": "https://static.750g.com/images/640-420/7d3283eb1b89b52f40a562eaa40ed53e/gateau-au-yaourt.jpeg",
+    "note": "4.2/5",
+    "portion": "Non précisé",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "5min",
+    "tpsCuisson": "25min",
+    "tpsTotal": "30min",
+    "ingredients": [
+      "2 pots de farine",
+      "2 pots de sucre",
+      "3 œufs",
+      "1 pot de yaourt",
+      "1 pot d'huile",
+      "Un peu de beurre pour le moule",
+      "1 sachet de levure"
+    ],
+    "materiels": [
+      "Four traditionnel",
+      "Moule à cake"
+    ],
+    "etapesPreparation": [
+      "Mélanger le yaourt, le sucre et les oeufs. Ajouter ensuite la farine, la levure et l'huile.",
+      "Beurrer le moule et enfourner dans le four chaud à 170°C."
+    ],
+    "conseil": "Metttre un coupelle d'eau dans le four pour garder de l'humidité et éviter la cuisson trop rapide...",
+    "typeRecette": "dessert",
+    "source": "https://www.750g.com/gateau-au-yaourt-r28391.htm",
+    "site": "750g.com",
+    "optionType": "gateaux"
+  },
+  {
+    "_id": "Gâteau-au-chocolat-facile-750g",
+    "nomRecette": "Gâteau au chocolat facile",
+    "imageRecette": "https://static.750g.com/images/640-420/c50cd7eba0d04cb428104e1e21f0dff1/gateau-au-chocolat-facile.jpg",
+    "note": "4.2/5",
+    "portion": "6 personnes",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "20min",
+    "tpsCuisson": "45min",
+    "tpsTotal": "1h 5min",
+    "ingredients": [
+      "5 oeufs",
+      "200 g de sucre",
+      "200 g de chocolat",
+      "150 g de beurre",
+      "100 g de farine",
+      "5 cl de lait",
+      "1 paquet de levure"
+    ],
+    "materiels": [
+      "Casserole",
+      "Four traditionnel",
+      "Moule à manqué ou rond"
+    ],
+    "etapesPreparation": [
+      "Faire fondre le chocolat dans une casserole avec le beurre et un peu de lait. Mettre les jaunes d'oeufs et le sucre dans un saladier et blanchir au fouet.",
+      "Ajouter le chocolat, la levure et la farine. A la fin, battre les blancs en neige, les ajouter aux ingrédients et mélanger délicatement. Beurrer un moule.",
+      "Faire cuire au four 180°C ou Th.6 pendant 45 minutes."
+    ],
+    "conseil": "Servir avec de la glace à la vanille. A la fin, on peut saupoudrer du sucre glace sur le gâteau.",
+    "typeRecette": "dessert",
+    "source": "https://www.750g.com/gateau-au-chocolat-r10420.htm",
+    "site": "750g.com",
+    "optionType": "gateaux"
+  }
+]

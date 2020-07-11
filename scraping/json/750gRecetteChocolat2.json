@@ -1,0 +1,392 @@
+[
+  {
+    "_id": "Zebra-Cheesecake-750g",
+    "nomRecette": "Zebra Cheesecake",
+    "imageRecette": null,
+    "note": "4.1/5",
+    "portion": "Non précisé",
+    "difficulte": "Facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "15min",
+    "tpsCuisson": "55min",
+    "tpsTotal": "1h 10min",
+    "ingredients": [
+      "1 kg de fromage blanc",
+      "125g de biscuits au beurre type Petit-Beurre LU",
+      "120g de sucre",
+      "4 œufs",
+      "50g de beurre fondu",
+      "2 c à s de maïzena",
+      "2 c à s de cacao en poudre",
+      "1 c à c d'extrait de vanille"
+    ],
+    "materiels": [
+      "Fouet",
+      "Four traditionnel",
+      "Plaque de cuisson pour four",
+      "Rouleau à pâtisserie",
+      "Saladier",
+      "Spatule métallique plate",
+      "Moule à manqué ou rond à charnières"
+    ],
+    "etapesPreparation": [
+      "Dans un saladier, cassez grossièrement les biscuits au beurre.",
+      "Réduisez les biscuits au beurre en poudre à l'aide d'un pilon ou d'un rouleau à pâtisserie.",
+      "Ajoutez le beurre à la poudre de biscuits.",
+      "Travaillez le beurre avec la poudre de biscuits pour obtenir une pâte homogène.",
+      "Dans un moule à charnière, déposez-y la préparation à base de biscuits et de beurre pour former un fond de tarte. Tassez bien et placez au frais le temps de préparer l'appareil à cheesecake.",
+      "Dans un saladier, versez le fromage blanc, le sucre et l'extrait de vanille. Mélangez.",
+      "Ajoutez les oeufs entiers et mélangez.",
+      "Ajoutez la Maïzena et mélangez.",
+      "Divisez la préparation à cheesecake dans deux saladiers de façon égale.",
+      "Dans un des deux saladiers, ajoutez le cacao en poudre.",
+      "Mélangez jusqu'à obtenir une préparation bien homogène.",
+      "Dans le centre du moule, déposez 1 cuillère à soupe de préparation à la vanille.",
+      "Déposez sur la préparation à la vanille 1 cuillère à soupe de préparation au cacao.",
+      "Déposez de nouveau 1 cuillère à soupe de préparation à la vanille, puis poursuivez avec une cuillère à soupe de préparation au cacao. Et ainsi de suite, jusqu'à épuisement des préparations.",
+      "Enfournez 15 minutes à 180°C puis 40 minutes à 150°C, dans un four préchauffé.",
+      "Laissez refroidir complètement puis placez au frigo au minimum 4 heures avant de déguster. L'idéal est même une nuit."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "dessert",
+    "source": "https://www.750g.com/zebra-cheesecake-r99728.htm",
+    "site": "750g.com",
+    "optionType": "chocolat"
+  },
+  {
+    "_id": "Tarte-au-chocolat-750g",
+    "nomRecette": "Tarte au chocolat",
+    "imageRecette": null,
+    "note": "4.2/5",
+    "portion": "6 personnes",
+    "difficulte": "Moyen",
+    "budget": "Bon marché",
+    "tpsPreparation": "15min",
+    "tpsCuisson": "45min",
+    "tpsTotal": "1h",
+    "ingredients": [
+      "1 pâte sablée",
+      "500 g de crème fraîche liquide",
+      "300 g de chocolat pâtissier",
+      "2 oeufs"
+    ],
+    "materiels": [
+      "Casserole",
+      "Four à micro-ondes",
+      "Four traditionnel",
+      "Plaque de cuisson pour four"
+    ],
+    "etapesPreparation": [
+      "Préchauffez le four à 170°C ou Th.6.",
+      "Faites cuire la pâte à tarte sans garniture 30 à 35 minutes. Laissez le four en fonctionnement pour la cuisson de la tarte garnie.",
+      "Faites fondre le chocolat au micro-ondes ou au bain-marie. L'essentiel est de ne pas trop le chauffer pour ne pas le rendre granuleux. Ajoutez les oeufs au chocolat. Mélangez bien. Ajoutez la crème fraîche au mélange et incorporez-la. Le mélange épaissit car le chocolat est encore un peu chaud.",
+      "Versez la crème au chocolat sur le fond de tarte. Egalisez un peu la garniture.",
+      "Enfournez à 170°C ou Th.6 pour une quinzaine de minutes. Dégustez-la à peine tiède."
+    ],
+    "conseil": "Pour réaliser vous-même votre pâte sablée, suivez les conseils de cette vidéo : Pâte sablée maison Vous pouvez accompagner votre tarte au chocolat de crème chantilly ou d'une boule de glace vanille. Vous pouvez parfumer votre tarte avec des épices, des écorces d'agrumes, de la vanille. Retrouvez la recette en vidéo : Tarte au chocolat",
+    "typeRecette": "dessert",
+    "source": "https://www.750g.com/tarte-au-chocolat-r97832.htm",
+    "site": "750g.com",
+    "optionType": "chocolat"
+  },
+  {
+    "_id": "Bounty-maison-750g",
+    "nomRecette": "Bounty maison",
+    "imageRecette": null,
+    "note": "4/5",
+    "portion": "6 personnes",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "20min",
+    "tpsCuisson": "10min",
+    "tpsTotal": "30min",
+    "ingredients": [
+      "200 g de chocolat noir ou chocolat au lait",
+      "150 g de noix de coco rapée",
+      "100 g de lait concentré sucré",
+      "1 gousse de vanille"
+    ],
+    "materiels": [
+      "Bain-marie",
+      "Casserole",
+      "Grille de refroidissement",
+      "Saladier"
+    ],
+    "etapesPreparation": [
+      "Faire fondre le chocolat noir au bain-marie sur feu moyen.",
+      "Dans un grand saladier, mettre la noix de coco avec la moitié du lait concentré sucré. Ajouter les grains d'une gousse de vanille grattée. Mélanger. Le mélange doit être bien compact.",
+      "Former avec la paume des mains les bountys et les tremper dans le chocolat fondu. Vous pouvez aussi les façonner en forme ronde ou en barres. Les déposer sur une grille.",
+      "Pour les déguster, attendre que le chocolat se fige."
+    ],
+    "conseil": "Ne chauffez pas trop le chocolat pour le faire fondre sinon vous aurez des grains désagréables qui se formeront. Vous pouvez ajouter 1 cuillère à café de rhum pour plus de gourmandise. Retrouvez tous les conseils en vidéo : Bounty maison",
+    "typeRecette": "dessert",
+    "source": "https://www.750g.com/bounty-maison-r97803.htm",
+    "site": "750g.com",
+    "optionType": "chocolat"
+  },
+  {
+    "_id": "Fondant-au-chocolat-pâtissier-750g",
+    "nomRecette": "Fondant au chocolat pâtissier",
+    "imageRecette": null,
+    "note": "4.4/5",
+    "portion": "8 personnes",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "10min",
+    "tpsCuisson": "10min",
+    "tpsTotal": "20min",
+    "ingredients": [
+      "200 g de chocolat noir pâtissier",
+      "100 g de farine",
+      "100 g de beurre",
+      "100 g de sucre",
+      "2 oeufs",
+      "0,5 sachet de levure chimique"
+    ],
+    "materiels": [
+      "Bain-marie",
+      "Fouet",
+      "Four traditionnel",
+      "Moule à manqué ou rond",
+      "Saladier"
+    ],
+    "etapesPreparation": [
+      "Dans un bol, cassez le chocolat en carré et ajoutez le beurre par dessus. Faites fondre l'ensemble au micro-ondes ou au bain-marie.",
+      "Dans un saladier, cassez les œufs entiers et ajoutez le sucre. Mélangez.\nAjoutez la farine petit à petit (pour éviter les grumeaux), ainsi que la levure chimique et mélangez de nouveau.",
+      "Une fois le chocolat et le beurre fondus, mélangez pour obtenir une sauce au chocolat homogène.\nAjoutez l'ensemble à la pâte et remuez le tout.",
+      "Préchauffez le four à 180°C.",
+      "Beurrez et farines les moules individuels et versez la pâte au 3/4 des moules.",
+      "Enfournez pour 10 à 12 minutes de cuisson."
+    ],
+    "conseil": "Vous pouvez également réaliser ce fondant dans un moule plus grand, pour avoir un gâteauu. Dans ce cas, cuire entre 15 et 20 minutes.",
+    "typeRecette": "dessert",
+    "source": "https://www.750g.com/fondant-au-chocolat-r97277.htm",
+    "site": "750g.com",
+    "optionType": "chocolat"
+  },
+  {
+    "_id": "Mug-cake-au-chocolat-750g",
+    "nomRecette": "Mug cake au chocolat",
+    "imageRecette": null,
+    "note": "4.2/5",
+    "portion": "1 personne",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "5min",
+    "tpsCuisson": "Sans cuisson",
+    "tpsTotal": "5min",
+    "ingredients": [
+      "1 oeuf",
+      "40 g de chocolat noir",
+      "30 g de beurre",
+      "20 g de farine",
+      "20 g de sucre"
+    ],
+    "materiels": [
+      "Mug(s)"
+    ],
+    "etapesPreparation": [
+      "Disposer le chocolat et le beurre dans une tasse et faire fondre au micro-ondes 1 min à puissance maximale. Bien mélanger au fouet, le chocolat va continuer à fondre.",
+      "Ajouter le sucre, la farine et mélanger encore. Ajouter l'oeuf et mélanger énergiquement pour bien l'incorporer. Faire cuire au micro-ondes pendant 45 secondes à puissance maximale. Déguster chaud ou tiède."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "dessert",
+    "source": "https://www.750g.com/mug-cake-au-chocolat-r89569.htm",
+    "site": "750g.com",
+    "optionType": "chocolat"
+  },
+  {
+    "_id": "Pains-au-chocolat-ou-chocolatine-750g",
+    "nomRecette": "Pains au chocolat ou chocolatine",
+    "imageRecette": null,
+    "note": "4.3/5",
+    "portion": "Non précisé",
+    "difficulte": "Moyen",
+    "budget": "Bon marché",
+    "tpsPreparation": "1h",
+    "tpsCuisson": "20min",
+    "tpsTotal": "1h 20min",
+    "ingredients": [
+      "500g de farine",
+      "220g de beurre pommade",
+      "Barrettes de chocolat",
+      "40g de sucre semoule",
+      "1 œuf pour la dorure",
+      "28 cl de lait tiède",
+      "10g de levure boulangère fraîche ou sèche",
+      "2 c à c de sel fin"
+    ],
+    "materiels": [
+      "Robot pâtissier",
+      "Film alimentaire",
+      "Fouet",
+      "Pinceau",
+      "Plaque de cuisson pour four",
+      "Rouleau à pâtisserie"
+    ],
+    "etapesPreparation": [
+      "Préparation de la pâte feuilletée levée : \nDans le bol de votre robot, déposez la farine, le sucre, le sel, la levure et le lait. Pétrissez doucement, avec le crochet. Dés que la pâte commence à former une boule, arrêtez de pétrir et terminer à la main, pour former une boule.",
+      "Filmez la pâte et placez-la au frigo toute la nuit (ou au minimum 2h pour les personnes pressées).",
+      "Une fois la pâte reposée, farinez le plan de travail et étalez la pâte avec un rouleau à pâtisserie.",
+      "Une fois votre pâte étalée, placez le beurre de même consistance que le pâton au centre de celle-ci.",
+      "Repliez la pâte en portefeuille sur les 4 côtés, en faisant attention que le beurre reste bien au centre. Il doit être emprisonné dans la pâte. \nUne fois repliée, la pâte doit former un rectangle.",
+      "Aplatissez dans la longueur pour que le beurre s'intègre à la pâte. \nPuis repliez une nouvelle fois la pâte en portefeuille.\nPuis filmez la pâte et placez-la au frigo une quinzaine de minutes au minimum.",
+      "Farinez de nouveau le plan de travail, et étalez la pâte une nouvelle fois dans sa longueur.\nRepliez de nouveau en portefeuille (en trois).\nFilmez de nouveau et placez au frigo au minimum 20 minutes.",
+      "Farinez de nouveau le plan de travail, et étalez la pâte une nouvelle fois dans sa longueur.\nPliez de nouveau en trois, en portefeuille et applatissez avec le rouleau pour souder les couches.\nFilmez de nouveau et placez au frigo au minimum 1h.",
+      "Une fois reposée, étalez la pâte sur 3 à 4 mm d'épaisseur.\nCoupez des bandes de pâte de la taille des barrettes en chocolat (dans la longueur). \nEnsuite, placez 2 barettes de chocolat à chaque extrémité de la pâte et roulez la pâte comme un roulé.",
+      "Placez les pains au chocolat sur une plaque de four, filmez-les et laissez-les pousser (gonfler), dans la partie la plus chaude de la maison.",
+      "Pendant ce temps, préchauffez votre four à 180°C.",
+      "Une fois que les pains au chocolat ont doublé de volume, dorez-les avec un oeuf entier battu.",
+      "Enfournez-les pour 15 à 20 minutes de cuisson. Il faut qu'ils soient bien dorés."
+    ],
+    "conseil": "Il est important de pétrir la pâte doucement et peu longtemps, pour éviter d'avoir une pâte trop élastique.  Vous pouvez aussi visionner la recette de Chef Damien : Pain au chocolat",
+    "typeRecette": "dessert",
+    "source": "https://www.750g.com/pains-au-chocolat-ou-chocolatine-r96781.htm",
+    "site": "750g.com",
+    "optionType": "chocolat"
+  },
+  {
+    "_id": "Mini-croissants-au-chocolat-Kit-Kat-750g",
+    "nomRecette": "Mini-croissants au chocolat Kit Kat",
+    "imageRecette": null,
+    "note": "4.3/5",
+    "portion": "Non précisé",
+    "difficulte": "Facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "10min",
+    "tpsCuisson": "10min",
+    "tpsTotal": "20min",
+    "ingredients": [
+      "1 pâte feuilletée",
+      "12 mini Kit Kat",
+      "50g de cassonade",
+      "1 jaune d'œuf mélangé ave 1 c à s de lait"
+    ],
+    "materiels": [
+      "Four traditionnel",
+      "Plat à gratin"
+    ],
+    "etapesPreparation": [
+      "Coupez la pâte en 4 triangles.",
+      "Puis couper chaque triangle en 3.",
+      "Faites une entaille en bas des 12 triangles.",
+      "Posez un mini Kit Kat à la base de chaque triangle et roulez.",
+      "Faites de même pour les 11 autres triangles.",
+      "Badigoennez chaque mini croissant avec le mélange jaune et lait.",
+      "Saupoudrez avec la cassonade.",
+      "Enfournez pour 10 minutes dans un four préchauffé à 180°C. Faites refroidir sur une grille puis servez."
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "dessert",
+    "source": "https://www.750g.com/mini-croissants-au-kit-kat-r100299.htm",
+    "site": "750g.com",
+    "optionType": "chocolat"
+  },
+  {
+    "_id": "Moelleux-au-chocolat-minute-750g",
+    "nomRecette": "Moelleux au chocolat minute",
+    "imageRecette": null,
+    "note": "3.9/5",
+    "portion": "Non précisé",
+    "difficulte": "Facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "5min",
+    "tpsCuisson": "1min",
+    "tpsTotal": "6min",
+    "ingredients": [
+      "3 œufs entiers",
+      "125g de chocolat noir 70 %",
+      "125g de beurre",
+      "80g de sucre",
+      "50g de farine",
+      "50g de lait ou 5 cl de lait",
+      "Cacao poudre amer pour le décor"
+    ],
+    "materiels": [
+      "Fouet",
+      "Four à micro-ondes",
+      "Saladier"
+    ],
+    "etapesPreparation": [],
+    "conseil": "Remarques de Chef Damien : - On peut mettre quelques pépites de chocolat au fond de l'assiette...si on aime...   - Mais aussi des poires ou des griottes....   - Une recette qui peut se congeler à cru !   - Selon votre micro-onde et votre récipient de cuisson vous pouvez le cuire plus ou moins !",
+    "typeRecette": "dessert",
+    "source": "https://www.750g.com/moelleux-au-chocolat-au-micro-ondes-r10395.htm",
+    "site": "750g.com",
+    "optionType": "chocolat"
+  },
+  {
+    "_id": "Mousse-au-chocolat-de-Philippe-Conticini-750g",
+    "nomRecette": "Mousse au chocolat de Philippe Conticini",
+    "imageRecette": null,
+    "note": "4.3/5",
+    "portion": "4 personnes",
+    "difficulte": "Facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "10min",
+    "tpsCuisson": "2h",
+    "tpsTotal": "10min",
+    "ingredients": [
+      "7 blancs d’oeufs",
+      "230 g de chocolat noir",
+      "150 g de crème fraîche liquide",
+      "70 g de lait demi-écrémé",
+      "35 g de sucre roux",
+      "1 pincée de fleur de sel"
+    ],
+    "materiels": [
+      "Bain-marie",
+      "Robot pâtissier",
+      "Casserole",
+      "Fouet",
+      "Maryse"
+    ],
+    "etapesPreparation": [
+      "Faites fondre la chocolat noir au bain-marie.",
+      "Dans une casserole, portez à ébullition le lait et la crème puis verser le liquide en trois fois sur le chocolat, tout en mélangeant avec un fouet.",
+      "Laissez tiédir le mélange chocolat/lait dans un cul de poule (idéalement à 40°C).",
+      "Pendant ce temps, montez les blancs d'œufs. Dans le bol de votre robot, placez le sucre roux et versez les blancs d'oeuf. Battez les blancs à vitesse moyenne. Lorsqu'ils deviennent mousseux, serrez-les en mettant le fouet à vitesse maximum une quinzaine de secondes.",
+      "Incorporez délicatement un tiers des blancs montés à la ganache, avec un fouet à main. Mélangez.",
+      "Ajoutez délicatement le reste des blancs en neige à la préparation, à l'aide d'une maryse. Cassez délicatement les blancs en neige pour qu'ils s'incorporent totalement à la ganache.",
+      "Laissez reposer la mousse au chocolat au frais, au minimum 2 heures.",
+      "Au moment de servir, ajoutez quelques cristaux de fleur de sel."
+    ],
+    "conseil": "Dégustez cette recette de mousse au chocolat de Philippe Conticini, avec sa recette de supra-sablé. Un vrai régal !",
+    "typeRecette": "dessert",
+    "source": "https://www.750g.com/mousse-au-chocolat-de-philippe-conticini-r97667.htm",
+    "site": "750g.com",
+    "optionType": "chocolat"
+  },
+  {
+    "_id": "Gateau-aux-pépites-de-chocolat-sans-oeufs-750g",
+    "nomRecette": "Gateau aux pépites de chocolat sans oeufs",
+    "imageRecette": "https://static.750g.com/images/640-420/517feeb0846cd833d722fb1b6e5b6a47/gateau-aux-pepites-de-chocolat-sans-oeufs.jpg",
+    "note": "4.2/5",
+    "portion": "4 personnes",
+    "difficulte": "Très facile",
+    "budget": "Bon marché",
+    "tpsPreparation": "15min",
+    "tpsCuisson": "25min",
+    "tpsTotal": "40min",
+    "ingredients": [
+      "3 pots de farine",
+      "1 yaourt",
+      "1 pot de sucre",
+      "1 pot de lait",
+      "0,5 pot d'huile",
+      "100 g de pépites de chocolat",
+      "1 sachet de sucre vanillé",
+      "1 sachet de levure"
+    ],
+    "materiels": [
+      "Four traditionnel"
+    ],
+    "etapesPreparation": [
+      "Mélanger le tout et faites cuire 20/25 minutes au four à 200°"
+    ],
+    "conseil": "Aucun conseil n'a été proposé pour cette recette.",
+    "typeRecette": "dessert",
+    "source": "https://www.750g.com/gateau-aux-pepites-de-chocolat-sans-oeufs-r73818.htm",
+    "site": "750g.com",
+    "optionType": "chocolat"
+  }
+]

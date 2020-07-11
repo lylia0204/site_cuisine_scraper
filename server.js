@@ -15,6 +15,6 @@ app.get('/', function (req, res) {
 });
 app.use(recetteApiRoutes.apiRouter); 
 
-app.listen(8888, function () {
+app.listen(port, function () {
     console.log("http://localhost:8888 ou aws:8888");
 });

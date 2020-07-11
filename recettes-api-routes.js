@@ -2,6 +2,8 @@ var express = require('express');
 const apiRouter = express.Router();
 var myGenericMongoClient = require('./my_generic_mongo_client');
 
+var collection = process.env.COLLECTION || COLLECTION;
+
 // remplacer le _id de mongodb par id
 function replace_mongoId_byid(recette){
 	recette._id = recette._id;
@@ -21,7 +23,7 @@ function replace_mongoId_byid_inArray(recetteArray){
 apiRouter.route('/recette-api/public/recette/:_id')
 .get( function(req , res  , next ) {
 	var idRecette = req.params._id;
-	myGenericMongoClient.genericFindOne('recettes',
+	myGenericMongoClient.genericFindOne(collection,
 										{ '_id' : idRecette },
 									    function(err,recette){
 										   res.send(recette);
@@ -38,7 +40,7 @@ apiRouter.route('/recette-api/public/recettes')
 	var cat_ =req.query.cat_;
 	
 	var mongoQuery = cat_ ? { typeRecette: cat_   } : {};
-	myGenericMongoClient.genericFindList('recettes',mongoQuery ,function(err,recette){
+	myGenericMongoClient.genericFindList(collection,mongoQuery ,function(err,recette){
 		   res.send(recette);
 	});
 });
@@ -51,7 +53,7 @@ apiRouter.route('/recette-api/public/recette')
 	var categorie =req.query.cat_;
 	console.log("======cat du node ")
 	var mongoQuery = categorie ? { typeRecette: categorie   } : {};
-	myGenericMongoClient.genericFindList('recettes',mongoQuery ,function(err,recette){
+	myGenericMongoClient.genericFindList(collection,mongoQuery ,function(err,recette){
 		   res.send(recette);
 	});
 });
@@ -64,7 +66,7 @@ apiRouter.route('/recette-api/private/role-admin/recette') // a changer
 	var nouvelleRecette = req.body;
 	console.log("POST,nouvelleRecette="+JSON.stringify(nouvelleRecette));
 	nouvelleRecette._id=nouvelleRecette.id; // ===========> a revoir
-	myGenericMongoClient.genericInsertOne('recettes',
+	myGenericMongoClient.genericInsertOne(collection,
 										nouvelleRecette,
 									     function(err,recette){
 										     res.send(nouvelleRecette);
@@ -80,7 +82,7 @@ apiRouter.route('/recette-api/private/role-admin/recette') // a changer
 // .put( function(req , res  , next ) {
 // 	var newValueOfRecetteToUpdate = req.body;
 // 	console.log("PUT,newValueOfRecetteToUpdate="+JSON.stringify(newValueOfRecetteToUpdate));
-// 	myGenericMongoClient.genericUpdateOne('recettes',
+// 	myGenericMongoClient.genericUpdateOne(collection,
 // 	newValueOfRecetteToUpdate._id ,
 // 	{//_id = newValueOfRecetteToUpdate._id,
 // 		nomRecette : newValueOfRecetteToUpdate.nomRecette,
@@ -116,7 +118,7 @@ apiRouter.route('/recette-api/private/role-admin/recette/:id')
 .delete( function(req , res  , next ) {
 	var idRecette = req.params.id;
 	console.log("DELETE,idRecette="+idRecette);
-	myGenericMongoClient.genericRemove('recettes',{ _id : idRecette },
+	myGenericMongoClient.genericRemove(collection,{ _id : idRecette },
 									     function(err,recette){
 										     res.send({ deletedDeviseid : idRecette } );
 									    });

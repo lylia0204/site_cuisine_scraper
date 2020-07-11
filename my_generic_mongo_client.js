@@ -3,9 +3,6 @@ var ObjectID = require('mongodb').ObjectID;
 var assert = require('assert');
 
 var mongoDbUrl = process.env.MONGODB_URI || MONGODB_URI;
-//var mongoDbUrl = "mongodb+srv://lilya0204:sakura123@cluster-lylaya.3v1kt.mongodb.net/recettes?retryWrites=true&w=majority/recettes"
-
-//var dbName =  "recettes"
 var dbName =  process.env.DB_NAME || DB_NAME;
 var currentDb = null; 
  

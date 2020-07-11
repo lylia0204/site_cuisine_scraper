@@ -6,7 +6,7 @@ var bodyParser = require('body-parser')
 var jsonParser = bodyParser.json()
 app.use(jsonParser);
 
-const port= process.env.PORT || PORT ;
+const port= process.env.PORT || PORT ; 
 
 app.use('/html', express.static(__dirname + "/html"));
 

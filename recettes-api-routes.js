@@ -2,7 +2,6 @@ var express = require('express');
 const apiRouter = express.Router();
 var myGenericMongoClient = require('./my_generic_mongo_client');
 
-
 var collection = process.env.COLLECTION || COLLECTION;
 
 // remplacer le _id de mongodb par id

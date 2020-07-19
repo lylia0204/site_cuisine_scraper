@@ -1,6 +1,7 @@
 var express = require('express');
 const apiRouter = express.Router();
 var myGenericMongoClient = require('./my_generic_mongo_client');
+const { json } = require('express');
 
 var collection = process.env.COLLECTION || COLLECTION;
 //var collection = "recettes"
@@ -44,15 +45,68 @@ apiRouter.route('/recette-api/public/recettes')
 		   res.send(recette);
 	});
 });
-///////////////////////////////////////////////////////// GET  BY CATEGORIE/////////////////////////////////////////
+///////////////////////////////////////////////////////// GET  BY CATEGORIE /////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //exemple URL: http://localhost:8888/recette-api/public/recette (returning all recettes)
 //             http://localhost:8888/recette-api/public/recette?cat_=typeRecette
+
 apiRouter.route('/recette-api/public/recette')
 .get( function(req , res  , next ) {
 	var categorie =req.query.cat_;
-	console.log("======cat du node ")
-	var mongoQuery = categorie ? { typeRecette: categorie   } : {};
+	console.log("===== cat_ du node")
+	var mongoQuery = categorie ? { $or: [  {optionType: categorie} , { typeRecette: categorie  }]} : {};
+	myGenericMongoClient.genericFindList(collection,mongoQuery ,function(err,recette){
+		   res.send(recette);
+	});
+});
+
+///////////////////////////////////////////////////////// GET  BY NAME /////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+apiRouter.route('/recette-api/public/searchrecette')
+.get( function(req , res  , next ) {
+	var recherche =req.query.search;
+	console.log("===== recherche  "+ recherche)
+	
+	var recherchetrim = recherche.trim()
+	var rechercheReplaceVingt = recherchetrim.replace(/%20/gi , " ")
+	var rechercheReplaceMot= rechercheReplaceVingt.replace(/ et | aux | à | ou|l'| la |les | le | au | du|des | de | avec | sur/gi, '|') 
+	var rechercheReplaceEspace = rechercheReplaceMot.replace(/ /gi, '|');
+	var rechercheReplacePipe1 = rechercheReplaceEspace.replace(/[|][|]/gi, '|');
+	var rechercheReplacePipe2 = rechercheReplacePipe1.replace(/[|][|]/gi, '|');
+	
+	console.log("===== recherche requete "+ rechercheReplacePipe2)
+
+	var mongoQuery = recherche ? {$or: [  {nomRecette: recherchetrim  } , 
+		   { nomRecette :{ $regex: rechercheReplacePipe2,$options:'i' }  },
+		   {ingredients :{ $regex: rechercheReplacePipe2,$options:'i'}}
+		]  } : {};
+
+
+	console.log("====="+ JSON.stringify(mongoQuery))
+	myGenericMongoClient.genericFindList(collection,mongoQuery ,function(err,recette){
+		   res.send(recette);
+	});
+});
+
+
+
+apiRouter.route('/recette-api/public/recette')
+.get( function(req , res  , next ) {
+	var recherche =req.query.recherche;
+	var rachercheReplace = recherche.replace(/"%20"/gi , " ")
+	// var rechercheSplit= recherche.split(' ')
+
+	// for (let i = 0; i < rechercheSplit.length; i++) {
+		const element = rechercheSplit[i];
+		
+		var mongoQuery = recherche ? { $or: [  {nomRecette: rachercheReplace} , 
+											//    { nomRecette :{ $regex: element}  },
+											//    {ingredients :{ $regex: element}}
+											] } : {};
+	// }
 	myGenericMongoClient.genericFindList(collection,mongoQuery ,function(err,recette){
 		   res.send(recette);
 	});

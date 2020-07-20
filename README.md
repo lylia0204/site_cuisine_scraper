@@ -14,9 +14,11 @@ https://github.com/lylia0204/site_cuisine-angular = partie Angular
 https://github.com/lylia0204/site_cuisine_scraper = partie alimentation de la base de donnée MongoDB (scrapping des sites).
 
 Les technologies utilisées pour le deployement sont:  
-AWS S3 pour le deployement des microservices  
+AWS EC2 pour le deployement des microservices  
 AWS RDS pour l'hebergement de la base de données MySql.  
-AWS  
+AWS ElasticBeans pour la partie nodeJS.
+AWS S3 pour la partie Angular.
+ 
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 # site_cuisine_scraper

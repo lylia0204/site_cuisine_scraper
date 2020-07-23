@@ -72,7 +72,7 @@ apiRouter.route('/recette-api/public/searchrecette')
 
 		var recherchetrim = recherche.trim()
 		var rechercheReplaceVingt = recherchetrim.replace(/%20/gi, " ")
-		var rechercheReplaceMot = rechercheReplaceVingt.replace(/ et | aux | à | ou|l'| la |les | le | au | du|des | de | avec | sur/gi, '|')
+		var rechercheReplaceMot = rechercheReplaceVingt.replace(/ et | aux |à | ou|l'|la |les | le | au | du|des |de | avec | sur/gi, '|')
 		var rechercheReplaceEspace = rechercheReplaceMot.replace(/ /gi, '|');
 		var rechercheReplacePipe1 = rechercheReplaceEspace.replace(/[|][|]/gi, '|');
 		var rechercheReplacePipe2 = rechercheReplacePipe1.replace(/[|][|]/gi, '|');
@@ -298,7 +298,7 @@ apiRouter.route('/recette-api/private/role-admin/recette') // a changer
 	    var stringtrim = string.trim()
 		var stringTire = stringtrim.replace(/-/gi, " ")
 		var stringReplaceVingt = stringTire.replace(/%20/gi, " ")
-		var stringReplaceMot = stringReplaceVingt.replace(/ et | aux | à | ou|l'| la |les | le | au | du|des | de | avec | sur/gi, '|')
+		var stringReplaceMot = stringReplaceVingt.replace(/ et | aux | à | ou|l'|la |les | le | au | du|des | de | avec | sur/gi, '|')
 		var stringReplaceEspace = stringReplaceMot.replace(/ /gi, '|');
 		var stringReplacePipe1 = stringReplaceEspace.replace(/[|][|]/gi, '|');
 		var stringReplacePipe2 = stringReplacePipe1.replace(/[|][|]/gi, '|');
